@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('CormorantGaramond-Medium.eot');
+    src: url('CormorantGaramond-Medium.eot?#iefix') format('embedded-opentype'),
+        url('CormorantGaramond-Medium.woff2') format('woff2'),
+        url('CormorantGaramond-Medium.woff') format('woff'),
+        url('CormorantGaramond-Medium.ttf') format('truetype'),
+        url('CormorantGaramond-Medium.svg#CormorantGaramond-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
