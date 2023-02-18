@@ -1,0 +1,13 @@
+.text {
+  font-family: "Marck Script", cursive;
+  font-size: 20px;
+  color: rgb(3, 137, 5);
+}
+.div {
+  background-repeat: no-repeat;
+  border: 100px solid red;
+  background-size: contain;
+  border-image-source: url(ramka.png);
+  border-image-slice: 100;
+  border-image-repeat: round;
+}
