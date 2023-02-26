@@ -5,9 +5,10 @@
 }
 .div {
   background-repeat: no-repeat;
-  border: 100px solid red;
+  border: 70px solid red;
   background-size: contain;
   border-image-source: url(ramka.png);
-  border-image-slice: 100;
+  border-image-slice: 150;
   border-image-repeat: round;
+  border-image-width: 150px;
 }
