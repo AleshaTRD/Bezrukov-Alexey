@@ -14,19 +14,24 @@ span {
   margin-left: 12px;
   color: rgb(192, 10, 10);
 }
-.qcont {
+
+.cont {
   display: flex;
+  justify-content: space-evenly;
 }
 .el {
-  border-bottom: 2px solid;
-  width: 220px;
-  padding-left: 10px;
+  box-shadow: 4px 3px 15px 7px rgba(82, 59, 28, 0.2);
+  width: 250px;
+  padding-left: 15px;
   padding-bottom: 20px;
 }
 img {
   vertical-align: bottom;
+  padding-right: 15px;
+  width: 33%;
 }
 h3 {
-  margin-top: 10px;
+  text-align: center;
+  margin-top: 15px;
   margin-bottom: 10px;
 }
