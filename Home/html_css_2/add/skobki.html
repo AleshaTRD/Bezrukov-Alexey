@@ -3,10 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>skobki</title>
-    <h3>
-      Картинка состоит из 2 частей: Фон в формате jpeg c весом 15.8 kb и
-      вырезанные скобки в формате png c весом 34.1 kb. Общий вес - 49.9 kb
-    </h3>
+
     <style>
       .fon {
         width: 500px;
@@ -18,11 +15,35 @@
         padding-left: 108px;
         padding-top: 193px;
       }
+      .flex {
+        display: flex;
+      }
     </style>
   </head>
   <body>
-    <div class="fon">
-      <img class="skob" src="sobvyrez.png" alt="" />
+    <div class="flex" style="justify-content: space-around">
+      <div>
+        <h3>
+          Картинка состоит из 2 частей: Фон в формате jpeg c весом <br />
+          15.8 kb и вырезанные скобки в формате png c весом 34.1 kb. <br />
+          Общий вес - 49.9 kb
+        </h3>
+
+        <div class="fon">
+          <img class="skob" src="sobvyrez.png" alt="" />
+        </div>
+      </div>
+
+      <div>
+        <h3>
+          Картинка состоит из 3 частей: Скобки в формате png c весом <br />
+          52,5 kb. и верх с низом в jpeg c весом 9,55 kb. <br />
+          Общий вес - 62,1 kb.
+        </h3>
+        <img src="s1.jpeg" /> <br />
+        <img src="s2.png" style="margin-top: -4px" /> <br />
+        <img src="s3.jpeg" style="margin-top: -4px" />
+      </div>
     </div>
   </body>
 </html>
