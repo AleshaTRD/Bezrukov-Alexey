@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+.pfoot {
+  padding: 0px 20px;
+}
 li {
   margin-left: 30px;
 }
