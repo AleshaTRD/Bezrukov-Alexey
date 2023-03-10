@@ -18,6 +18,7 @@ span {
 .cont {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .el {
   box-shadow: 4px 3px 15px 7px rgba(82, 59, 28, 0.2);
