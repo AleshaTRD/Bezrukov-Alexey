@@ -197,7 +197,7 @@ a {
   color: #ffffff;
 }
 
-/* program_block_college */
+/* SECTION program_block_college */
 .colage-h2-heigh {
   height: 120px;
 }
@@ -318,4 +318,109 @@ a {
   left: -126px;
   background: url(../img/collage-back-grey.png) no-repeat;
   z-index: -2;
+}
+
+/* SECTION   WHY CHOOSE  */
+.why_choose {
+  background: url("../img/why/why-fone.png") no-repeat center 110%,
+    url("../img/why/why-fone2.png") no-repeat top 48px center;
+  height: 1314px;
+}
+.h2_why_choose {
+  margin-top: 120px;
+  padding-top: 115px;
+  justify-content: center;
+}
+.span_why_choose {
+  position: relative;
+  z-index: 10;
+}
+.span_why_choose::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 257px;
+  width: 276px;
+  height: 81px;
+  background: url("../img/why-chose-icon.png") no-repeat;
+  z-index: -2;
+}
+
+.why_choose_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  position: relative;
+}
+.why_choose_list:last-child {
+  justify-content: flex-start;
+}
+
+.why_choose_list_item1 {
+  width: 428px;
+  background: url(../img/why/why1.png) no-repeat 34px 1px,
+    url(../img/why/zastawka.png) no-repeat;
+}
+.why_choose_list_item2 {
+  width: 428px;
+  background: url(../img/why/why2.png) no-repeat 38px 22px,
+    url(../img/why/zastawka.png) no-repeat;
+}
+.why_choose_list_item3 {
+  width: 428px;
+  background: url(../img/why/why3.png) no-repeat 30px 7px,
+    url(../img/why/zastawka.png) no-repeat;
+}
+.why_choose_list_item4 {
+  width: 428px;
+  background: url(../img/why/why4.png) no-repeat 34px 1px,
+    url(../img/why/zastawka.png) no-repeat;
+  margin-top: 40px;
+}
+.why_choose_list_item5 {
+  width: 428px;
+  background: url(../img/why/why5.png) no-repeat 34px 1px,
+    url(../img/why/zastawka.png) no-repeat;
+  margin-top: 40px;
+}
+.why_choose_list_item6 {
+  width: 428px;
+  background: url(../img/why/why6.png) no-repeat 34px 8px,
+    url(../img/why/zastawka.png) no-repeat;
+  margin-top: 40px;
+}
+.why_choose_list_item7 {
+  width: 428px;
+  background: url(../img/why/why7.png) no-repeat 34px 0px,
+    url(../img/why/zastawka.png) no-repeat;
+  margin-top: 40px;
+}
+
+.why_choose_list h4 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  color: #2b2c54;
+  padding-left: 30px;
+  padding-top: 95px;
+}
+
+.why_choose_list p {
+  padding-left: 30px;
+  padding-top: 15px;
+  font-size: 18px;
+  line-height: 140%;
+}
+.why_choose_list:after {
+  content: "";
+  position: absolute;
+  top: 589px;
+  left: 567px;
+  width: 650px;
+  height: 650px;
+  background: url("../img/why/Mask\ group.png") no-repeat;
+  background-size: 594px;
+  z-index: 10;
 }
