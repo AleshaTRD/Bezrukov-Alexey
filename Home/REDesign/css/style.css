@@ -498,12 +498,12 @@ a {
 .why_choose_list:after {
   content: "";
   position: absolute;
-  top: 589px;
-  left: 567px;
+  top: 584px;
+  left: 558px;
   width: 650px;
   height: 650px;
   background: url("../img/why/Mask\ group.png") no-repeat;
-  background-size: 594px;
+  background-size: 641px;
   z-index: 10;
 }
 
