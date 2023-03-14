@@ -11,7 +11,7 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   color: #2b2c54;
-  height: 10000px;
+  height: 5950px;
 }
 .container {
   width: 1680px;
@@ -332,7 +332,56 @@ a {
   background-size: 100% 90%;
   transition: 1s;
 }
-.prepod_item p:hover {
+.prepod_item1:hover::after {
+  content: "";
+  position: absolute;
+  background: url(../img/prepod/pre11-hov.png) no-repeat;
+  background-size: 85% 83%;
+  top: 0px;
+  left: 1px;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  transition: 10s;
+}
+.prepod_item2:hover::after {
+  content: "";
+  position: absolute;
+  background: url(../img/prepod/prepod2-hov.png) no-repeat;
+  background-size: 84.3% 82.8%;
+  top: 0px;
+  left: 2px;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  transition: 2s;
+}
+.prepod_item3:hover::after {
+  content: "";
+  position: absolute;
+  background: url(../img/prepod/prep3-hov.png) no-repeat;
+  background-size: 82.7% 81%;
+  top: 6px;
+  left: 5px;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  transition: 2s;
+}
+.prepod_item4:hover::after {
+  content: "";
+  position: absolute;
+  background: url(../img/prepod/prepod4-hov.png) no-repeat;
+  background-size: 84.42% 82.5%;
+  top: 0px;
+  left: 1px;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  transition: 2s;
+}
+
+.prepod_item:hover {
   font-family: "Montserrat";
   font-weight: 600;
   font-size: 20px;
@@ -357,9 +406,11 @@ a {
 }
 .prepod_item img {
   width: 85%;
+  height: 85%;
 }
 .prep_img1 {
   margin-left: 425px;
+  margin-top: 20px;
 }
 .prep_img2 {
   margin-left: 322px;
@@ -718,4 +769,44 @@ a {
 }
 .feed_img3 {
   margin-left: 311px;
+}
+/*  FOOTER  */
+.footer {
+  width: 1920px;
+  height: 699px;
+  background: url("../img/footer/foot_fone.png") no-repeat;
+  background-position: center;
+  margin: 80px auto;
+  background-size: 100%;
+}
+
+.social {
+  display: flex;
+  padding-left: 1403px;
+}
+.social li {
+  margin-top: 154px;
+  margin-right: 20px;
+}
+.footer-menu {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 120px;
+}
+.fm-stolb {
+  width: 428px;
+}
+.fm-stolb h6 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.fm-stolb p,
+.fm-stolb li {
+  font-size: 18px;
+  line-height: 140%;
+  color: #f6f4fe;
 }
