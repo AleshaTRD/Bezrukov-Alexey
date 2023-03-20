@@ -1,0 +1,103 @@
+/* SECTION program_block_college */
+.program_block_college {
+  position: relative;
+  z-index: -1;
+  height: 1000px;
+  background: url("../img/collage-back-grey.png") no-repeat center 80px,
+    url("../img/collage-back-violet.png") no-repeat center 154px;
+}
+.colage-h2-heigh {
+  height: 120px;
+}
+
+.program_block_college h2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  line-height: 30px;
+}
+.program_block_college h2::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -40px;
+  left: 824px;
+  background: url(../img/block-icon.png) no-repeat;
+  z-index: 10;
+}
+
+.mt120 {
+  margin-top: 120px;
+  position: relative;
+}
+
+.header_progr_college_p {
+  margin-top: -27px;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+}
+.program_block_college ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 66px;
+}
+
+.program_block_college ul li {
+  width: 826px;
+  height: 560px;
+  position: relative;
+}
+.program_block_college ul li::before {
+  position: absolute;
+  content: "";
+  width: 826px;
+  height: 560px;
+  transform: rotate(-2.53deg);
+  background-color: #8062f2;
+  z-index: -1;
+}
+
+.block_college_item1 {
+  background: url(../img/mask1.png), url(../img/block4.png) no-repeat 100%;
+}
+.block_college_item2 {
+  background: url(../img/mask1.png), url(../img/block5.png) no-repeat 100%;
+}
+.program_block_college ul li h6 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #f6f4fe;
+  padding-top: 228px;
+  padding-left: 30px;
+}
+.program_block_college ul li h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 120%;
+  color: #ffffff;
+  padding-top: 12px;
+  padding-left: 30px;
+}
+.program_block_college ul li p {
+  font-size: 16px;
+  line-height: 140%;
+  color: #f6f4fe;
+}
+.pc_1 {
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.pc_2 {
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.pc_3 {
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}

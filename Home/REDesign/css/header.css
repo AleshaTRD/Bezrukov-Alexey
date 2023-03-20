@@ -1,0 +1,19 @@
+/* HEADER */
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header ul {
+  display: flex;
+  align-items: center;
+}
+.header ul li {
+  margin-right: 60px;
+}
+.header ul li:last-child {
+  margin-right: 0px;
+}
+.header img {
+  padding: 13px 0px;
+}

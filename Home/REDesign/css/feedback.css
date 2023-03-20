@@ -1,0 +1,212 @@
+/*SECTION   FEEDBACK */
+.feedback h2 {
+  margin-top: 181px;
+  margin-bottom: 50px;
+}
+
+.feedback_list {
+  display: flex;
+  width: 1680px;
+}
+
+.feedback_list_item1 {
+  flex-basis: 540px;
+  margin-right: 30px;
+  box-shadow: 0px 30px 60px rgba(43, 44, 84, 0.1);
+}
+.feedback_list_item2 {
+  flex-basis: 540px;
+  margin-right: 30px;
+  box-shadow: 0px 30px 60px rgba(43, 44, 84, 0.1);
+}
+.feedback_list_item3 {
+  flex-basis: 540px;
+  box-shadow: 0px 30px 60px rgba(43, 44, 84, 0.1);
+}
+.p_14 {
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  color: rgba(43, 44, 84, 0.7);
+}
+.p1_list1 {
+  padding-top: 18px;
+  padding-left: 30px;
+  margin-bottom: 8px;
+}
+.span1_list1 {
+  margin-top: 8px;
+  padding-left: 82px;
+  position: relative;
+}
+.span1_list1::before {
+  content: "";
+  position: absolute;
+  background: url(../img/feedback/user\ 1.jpg) no-repeat;
+  width: 36px;
+  height: 33px;
+  top: -4px;
+  left: 30px;
+}
+.span1_list1::after {
+  content: "";
+  position: absolute;
+  background: url(../img/feedback/otzyvyby.jpg) no-repeat;
+  width: 150px;
+  height: 33px;
+  top: 169px;
+  left: 30px;
+}
+
+.p_16 {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 64px;
+  margin-top: 21px;
+  line-height: 140%;
+  color: rgba(43, 44, 84, 0.7);
+  position: relative;
+}
+.p_16::after {
+  content: "";
+  position: absolute;
+  background: url(../img/feedback/scrol.png) no-repeat;
+  width: 10px;
+  height: 110px;
+  top: 4px;
+  left: 529px;
+}
+.item2_h5 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: #2b2c54;
+  padding-top: 25px;
+  padding-left: 105px;
+  position: relative;
+}
+.item2_h5::before {
+  content: "";
+  background: url("../img/feedback/user2.jpg") no-repeat;
+  position: absolute;
+  width: 62px;
+  height: 63px;
+  left: 30px;
+  top: 18px;
+}
+.item2_p1 {
+  font-size: 14px;
+  line-height: 140%;
+  color: rgba(43, 44, 84, 0.7);
+  padding-top: 5px;
+  padding-left: 105px;
+}
+.item2_p2 {
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  color: rgba(43, 44, 84, 0.7);
+  padding-top: 31px;
+  padding-left: 169px;
+  position: relative;
+}
+.item2_p2::before {
+  content: "";
+  background: url("../img/feedback/stars.jpg") no-repeat;
+  position: absolute;
+  width: 125px;
+  height: 30px;
+  left: 30px;
+  top: 31px;
+}
+.item2_p3 {
+  line-height: 140%;
+  color: rgba(43, 44, 84, 0.7);
+  padding-left: 30px;
+  padding-top: 20px;
+  position: relative;
+}
+.item2_p3::before {
+  content: "";
+  background: url("../img/feedback/yandex.jpg") no-repeat;
+  position: absolute;
+  width: 126px;
+  height: 40px;
+  left: 30px;
+  top: 91px;
+}
+.item3_h5 {
+  position: relative;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: #2b2c54;
+  padding-left: 30px;
+  padding-top: 27px;
+}
+.item3_h5::before {
+  content: "";
+  background: url("../img/feedback/recomend.png") no-repeat;
+  position: absolute;
+  width: 126px;
+  height: 40px;
+  left: 281px;
+  top: 24px;
+}
+.item3_h5::after {
+  content: "";
+  background: url("../img/feedback/stars_small.png") no-repeat;
+  position: absolute;
+  width: 126px;
+  height: 40px;
+  left: 422px;
+  top: 27px;
+}
+.item3_p1 {
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgba(43, 44, 84, 0.7);
+  padding-top: 11px;
+  padding-left: 30px;
+}
+.item3_p2 {
+  line-height: 140%;
+  color: rgba(43, 44, 84, 0.7);
+  padding-top: 11px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+}
+.item3_p2::before {
+  content: "";
+  background: url("../img/feedback/scrol.png") no-repeat;
+  position: absolute;
+  width: 44px;
+  height: 120px;
+  left: 530px;
+  top: 15px;
+}
+.item3_p2::after {
+  content: "";
+  background: url("../img/feedback/relax.png") no-repeat;
+  position: absolute;
+  width: 126px;
+  height: 40px;
+  left: 30px;
+  top: 140px;
+}
+
+.feed_img1 {
+  margin-left: 425px;
+  margin-top: 60px;
+}
+.feed_img2 {
+  margin-left: 322px;
+}
+.feed_img3 {
+  margin-left: 311px;
+}

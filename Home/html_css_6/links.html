@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>link</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      a {
+        color: green;
+        padding: 5px 10px 10px 10px;
+      }
+      .link2 a {
+        border-right: solid red 3px;
+      }
+      div {
+        height: 50px;
+      }
+      .link3 {
+        display: flex;
+        list-style-type: none;
+        width: 700px;
+        justify-content: start;
+      }
+      li {
+        position: relative;
+      }
+      li::after {
+        content: url("bort.jpeg");
+        position: absolute;
+        top: -6px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="link1">
+      <a href="https://www.google.com/">первая ссылка </a>
+      <img src="bort.jpeg" align="center" />
+      <a href="https://www.google.com/">вторая ссылка </a>
+      <img src="bort.jpeg" align="center" />
+      <a href="https://www.google.com/">третяя ссылка </a>
+      <img src="bort.jpeg" align="center" />
+      <a href="https://www.google.com/">четвертая ссылка </a>
+      <img src="bort.jpeg" align="center" />
+      <a href="https://www.google.com/">пятая ссылка </a>
+      <img src="bort.jpeg" align="center" />
+    </div>
+    <div class="link2">
+      <a href="https://www.google.com/">первая ссылка </a>
+      <a href="https://www.google.com/">вторая ссылка </a>
+      <a href="https://www.google.com/">третяя ссылка </a>
+      <a href="https://www.google.com/">четвертая ссылка </a>
+      <a href="https://www.google.com/">пятая ссылка </a>
+    </div>
+    <ul class="link3">
+      <li><a href="https://www.google.com/">первая ссылка </a></li>
+      <li><a href="https://www.google.com/">вторая ссылка </a></li>
+      <li><a href="https://www.google.com/">третяя ссылка </a></li>
+      <li><a href="https://www.google.com/">четвертая ссылка </a></li>
+      <li><a href="https://www.google.com/">пятая ссылка </a></li>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,105 @@
+/* program_block */
+
+.program_block h2 {
+  margin-top: 99px;
+  height: 120px;
+}
+.program_block h2 span {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.program_block h2 span::before {
+  content: "";
+  position: absolute;
+  top: -17px;
+  left: -85px;
+  width: 100%;
+  height: 100%;
+  background: url(../img/block-icon.png) no-repeat;
+  z-index: -1;
+}
+
+.program_block ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.program_block ul li {
+  width: 541px;
+  height: 609px;
+  position: relative;
+  margin-top: 52px;
+}
+.program_block ul li::before {
+  position: absolute;
+  content: "";
+  width: 541px;
+  height: 609px;
+  transform: rotate(-2.65deg);
+  background-color: #8062f2;
+  z-index: -1;
+}
+
+.block_item1 {
+  background: url(../img/mask1.png), url(../img/block1.png) no-repeat 100%;
+}
+.block_item2 {
+  background: url(../img/mask1.png), url(../img/block2.png) no-repeat 100%;
+}
+.block_item3 {
+  background: url(../img/mask1.png), url(../img/block3.png) no-repeat 100%;
+}
+.program_block ul li h6 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #f6f4fe;
+  padding-top: 299px;
+  padding-left: 30px;
+}
+.program_block ul li h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 120%;
+  color: #ffffff;
+  padding-top: 12px;
+  padding-left: 30px;
+}
+.program_block ul li p {
+  font-size: 16px;
+  line-height: 140%;
+  color: #f6f4fe;
+}
+.p_1 {
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.p_2 {
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.p_3 {
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.btn1 {
+  padding: 20px 40px;
+  margin-left: 30px;
+  margin-top: 50px;
+  background: #9981f5;
+  border: 1px solid #6743ef;
+  box-shadow: 0px 4px 0px #6743ef, 0px 4px 30px rgba(128, 98, 242, 0.6);
+  border-radius: 100px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}

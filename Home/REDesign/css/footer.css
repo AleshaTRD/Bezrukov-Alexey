@@ -1,0 +1,40 @@
+/*  FOOTER  */
+.footer {
+  width: 1920px;
+  height: 699px;
+  background: url("../img/footer/foot_fone.png") no-repeat;
+  background-position: center;
+  margin: 80px auto;
+  background-size: 100%;
+}
+
+.social {
+  display: flex;
+  padding-left: 1403px;
+}
+.social li {
+  margin-top: 154px;
+  margin-right: 20px;
+}
+.footer-menu {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 120px;
+}
+.fm-stolb {
+  width: 428px;
+}
+.fm-stolb h6 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.fm-stolb p,
+.fm-stolb li {
+  font-size: 18px;
+  line-height: 140%;
+  color: #f6f4fe;
+}

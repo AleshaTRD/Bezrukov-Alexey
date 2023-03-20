@@ -1,0 +1,18 @@
+.name {
+  font-size: 24px;
+  font-weight: 700;
+}
+.date {
+  color: green;
+}
+.yers {
+  color: red;
+}
+.text {
+  color: blue;
+  font-style: italic;
+}
+.url {
+  padding-left: 12px;
+  background: url(../html_css_6/extref.png) no-repeat left;
+}
