@@ -1,0 +1,92 @@
+@import url(12ball_tablet.css);
+@import url(12ball_mobile.css);
+
+/* ALL */
+* {
+  margin: 0;
+  padding: 0;
+}
+.li_ch {
+  list-style-type: circle;
+}
+.a_ch {
+  color: red;
+  font-weight: 700;
+}
+/* .pfoot {
+  padding: 0px 20px; */
+/* } */
+li {
+  margin-left: 30px;
+}
+a {
+  color: #310efd;
+  font-size: 18px;
+}
+h4 {
+  font-size: 18px;
+}
+.float1 {
+  float: left;
+  padding-right: 20px;
+}
+.flex_menu {
+  padding-left: 30px;
+}
+
+.flex1 {
+  width: auto;
+  display: flex;
+}
+.menu {
+  flex-basis: 20%;
+  background: url(ball3.png) left bottom no-repeat,
+    url(ball3.png) right bottom no-repeat, url(ball3.png) left top no-repeat,
+    url(ball3.png) right top no-repeat;
+  background-color: #f0e78c;
+  flex-shrink: 0;
+}
+.menu h4 {
+  padding: 105px 0px 20px 30px;
+}
+.content {
+  padding: 20px;
+  flex-grow: 2;
+  flex-shrink: 1;
+  background: url(ball3.png) left bottom no-repeat,
+    url(ball3.png) right bottom no-repeat, url(ball3.png) left top no-repeat,
+    url(ball3.png) right top no-repeat,
+    url(../html_css_7/ball.png) right top repeat-y;
+}
+.baner {
+  background: url(ball3.png) left bottom no-repeat,
+    url(ball3.png) right bottom no-repeat, url(ball3.png) left top no-repeat,
+    url(ball3.png) right top no-repeat;
+  flex-basis: 200px;
+  background-color: #d19fda;
+  flex-shrink: 0;
+}
+.b1 {
+  padding-top: 105px;
+  padding-left: 10px;
+}
+.b2 {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.privet {
+  min-height: 44px;
+  background-color: #aed9e7;
+  color: #310efd;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 44px;
+}
+.glavnoe {
+  height: 64px;
+  background-color: #aed9e7;
+  color: #310efd;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 64px;
+}

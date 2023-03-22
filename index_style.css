@@ -1,6 +1,7 @@
 body {
   background-color: antiquewhite;
 }
+
 h2 {
   margin-left: 10px;
 }
@@ -11,7 +12,7 @@ body {
   font-weight: 550;
 }
 span {
-  margin-left: 12px;
+  margin-left: 40px;
   color: rgb(192, 10, 10);
 }
 
