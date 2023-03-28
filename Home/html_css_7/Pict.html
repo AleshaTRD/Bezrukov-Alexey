@@ -7,6 +7,14 @@
     <title>Pict</title>
   </head>
   <body>
-    pict
+    <picture>
+      <source
+        srcset="zonda400.jpg 400w, zonda800.jpg 800w, zonda1200.jpg 1200w"
+        sizes="(min-width: 1280px) 1200px,
+                (min-width: 768px) 400px,
+                100vw"
+      />
+      <img src="zonda800.jpg" alt="Car" />
+    </picture>
   </body>
 </html>

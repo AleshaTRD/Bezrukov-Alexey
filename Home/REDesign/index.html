@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>REdesign</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,7 +13,8 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="header">
+    <div class="fon2block">
+     <header class="header">
       <div class="container">
         <img src="img/logo.png" />
         <ul class="header_menu">
@@ -39,6 +41,7 @@
           </svg>
           Войти
         </button>
+        <button class="burger"></button>
       </div>
     </header>
     <section class="program_block">
@@ -78,6 +81,7 @@
         </ul>
       </div>
     </section>
+ 
     <section class="program_block_college">
       <div class="container">
         <div class="colage-h2-heigh">
@@ -87,7 +91,7 @@
         </div>
         <p class="header_progr_college_p">
           Программы нашей Академии для подготовки школьников к поступлению в
-          ВУЗы на <br />
+          ВУЗы на <br class="br1" />
           дизайнерские специальности и сдачи вступительных экзаменов по
           творчеству
         </p>
@@ -98,7 +102,8 @@
             <p class="p_1">Обучение длится 18 месяцев</p>
             <p class="p_2">Форма обучения: очная</p>
             <p class="p_3">
-              Занятия проходят два раза в неделю в будний и в выходной <br />
+              Занятия проходят два раза в неделю в будний и в выходной
+              <br />
               день - один раз в неделю в будний или выходной день
             </p>
             <a href="dsfsdf" class="btn1">Подробнее</a>
@@ -118,12 +123,13 @@
         </ul>
       </div>
     </section>
+  </div>
     <section class="prepod">
       <div class="container">
         <h2 class="h2_prepod">Преподаватели и кураторы</h2>
         <ul class="prepod_list">
           <li class="prepod_item prepod_item1">
-           <p>Александр Ковширко</p>
+            <p>Александр Ковширко</p>
           </li>
           <li class="prepod_item prepod_item2">
             <p>Анастасия Етка</p>
@@ -143,8 +149,8 @@
           занятие
         </h3>
         <p class="prep_p">
-          Оставьте предварительную заявку и мы свяжемся с вами для записи на
-          пробное занятие.
+          Оставьте предварительную заявку и мы свяжемся с <br class="prep_br" />
+          вами для записи на пробное занятие.
         </p>
         <a href="" class="btn1 prep-btn">Оставить заявку</a>
       </div>
@@ -154,7 +160,7 @@
         <h2 class="h2_why_choose">
           <span class="span_why_choose">Почему выбирают нас</span>
         </h2>
-        
+
         <ul class="why_choose_list">
           <li class="why_choose_list_item1">
             <h4>Качество</h4>
@@ -201,18 +207,18 @@
             </p>
           </li>
           <li class="why_choose_list_item7">
-            <h4>Современность образовательных программ</h4>
+            <h4 class="item7_h4-1">Современность образовательных программ</h4>
+            <h4 class="item7_h4-2">Практика</h4>
             <p>
               Мы сделали упор на практические знания, чтобы сформировать у
               студента навыки, которые помогут получить востребованную профессию
               в сфере дизайна.
             </p>
-          </li> 
+          </li>
         </ul>
-        
       </div>
     </section>
-    <section class="feedback">
+      <section class="feedback">
       <div class="container">
         <h2>Отзывы наших клиентов</h2>
         <ul class="feedback_list">
@@ -221,47 +227,57 @@
               Отзыв на "Академия визуальных коммуникаций "REdesign""
             </p>
             <span class="p_14 span1_list1">20.10.2021 19:24 // Ольга А</span>
-            <p p class="p_16">
+            <p p class="p_16 descr">
               Академия визуальных коммуникаций "REdesign" для нашей семьи была
+              открытием. Ребёнок самостоятельно отказался от игр на телефоне и
+              соц сетей и переключился на творческий процесс. Спасибо команде
+              педагогов и организаторов за горящие глаза ребенка, за мотивацию и  Академия визуальных коммуникаций "REdesign" для нашей семьи была
               открытием. Ребёнок самостоятельно отказался от игр на телефоне и
               соц сетей и переключился на творческий процесс. Спасибо команде
               педагогов и организаторов за горящие глаза ребенка, за мотивацию и
             </p>
+            <img src="../REDesign/img/feedback/otzyvyby.jpg" >
           </li>
           <li class="feedback_list_item2">
             <h5 class="item2_h5">Melnikov A.</h5>
             <p class="item2_p1">Знаток города 3 уровня</p>
             <p class="item2_p2">18 октября 2021</p>
-            <p class="item2_p3">
+            <p class="item2_p3 ">
               По итогам двух месяцев занятий дочь очень довольна. Спасибо.
             </p>
+            <img src="../REDesign/img/feedback/yandex.jpg" alt="">
           </li>
           <li class="feedback_list_item3">
             <h5 class="item3_h5">Андрей</h5>
             <p class="item3_p1">13 Сентября 2022</p>
-            <p class="item3_p2">
+            <p class="item3_p2 descr">
               У меня жена нашла в инсте эту академию. Чуть уговорили дочку
+              съездить на открытый урок на дизайн, просто глянуть что там и как.
+              Теперь ждет каждого занятия, не оторвать от домашки. Как по мне то
+              слишком много рисунка вначале. Моя то любит рисовать, а ее
+              подружка с  У меня жена нашла в инсте эту академию. Чуть уговорили дочку
               съездить на открытый урок на дизайн, просто глянуть что там и как.
               Теперь ждет каждого занятия, не оторвать от домашки. Как по мне то
               слишком много рисунка вначале. Моя то любит рисовать, а ее
               подружка с
             </p>
+            <img src="../REDesign/img/feedback/relax.png" alt="">
           </li>
         </ul>
         <img src="../REDesign/img/prepod/strelLev.png" class="feed_img1" />
         <img src="../REDesign/img/prepod/scrol.png" class="feed_img2" />
         <img src="../REDesign/img/prepod/strelPr.png" class="feed_img3" />
       </div>
-    </section>
+      
+   </section>
     <footer class="footer">
-      <div></div>
-      <ul class="social">
+           <ul class="social">
         <li><a href="https://www.instagram.com/redesignac/" target="_blank"><img src=".//img/footer/inst.png"/></a></li>
         <li><a href="https://www.facebook.com/RedesignAC/"><img src=".//img/footer/Facebook svg.png"/></a></li>
         <li><img src=".//img/footer/vk.png" alt="" /></li>
         <li><img src=".//img/footer/youtube 1.png" alt="" /></li>
         <li><img src=".//img/footer/tik-tok 1.png" alt="" /></li>
-        <li><a href="https://www.instagram.com/redesignac/" target="_blank"><img src=".//img/footer/ok.png"/>/></a></li>
+        <li><a href="https://www.instagram.com/redesignac/" target="_blank"><img src=".//img/footer/ok.png"/></a></li>
       </ul>
       <div class="footer-menu">
         <div class="fm-stolb">
@@ -272,7 +288,7 @@
             для детей и взрослых.
           </p>
         </div>
-        <div class="fm-stolb">
+        <div class="fm-stolb fm-stolb2">
           <ul>
             <h6>Меню</h6>
             <li>Главная</li>
@@ -283,10 +299,10 @@
             <li>Оплата</li>
           </ul>
         </div>
-        <div class="fm-stolb">
+        <div class="fm-stolb fm-stolb3">
           <ul>
             <h6>Программы</h6>
-            <li>Программы для детей и подростков</li>
+            <li>Программы для детей и <br> подростков</li>
             <li>Программы для взрослых</li>
             <li>Онлайн-обучение</li>
             <li>Программы на каникулах</li>
@@ -296,27 +312,32 @@
         <div class="fm-stolb">
           <h6>Контакты</h6>
           <p>Адрес</p> 
-          <img src=".//img/footer/adr.png" alt="">
-          <span>г.Минск. пр, Независимости, 58В, офис 106</span>
+          <div>
+          <img src=".//img/footer/adr.png" class="adr-img">
+          <span>г.Минск. пр, Независимости, 58В, <br> офис 106</span>
+           </div>
           <p>Телефон</p>
+          
          <img src=".//img/footer/col.png" alt="">
-          <a href="tel:+375296600452"
+          <a href="tel:+375296600452" class="tel1"
             >А1: +375 29 66 00 452</a
           >
           <br />
-          <a href="tel:+375336600452" class="section-contacts-linc"
+          <a href="tel:+375336600452" class="tel2"
             >МТС: +375 33 66 00 452</a
           >
-          <span>Email</span>
+          
+          <p class="email_p">Email</p>
+          <img src="../REDesign/img/footer/mail.png" class="foot-mail">
           <a
           href="mailto:example@example.com"
-          class="section-contacts-linc"
+          class="section-contacts-linc" 
           >manager@re-design.by</a
         >
         </div>
      
         </div>
       </div>
-    </footer>
+  </footer>
   </body>
 </html>

@@ -90,6 +90,7 @@
   padding-left: 30px;
   padding-top: 15px;
   font-size: 18px;
+  color: rgba(43, 44, 84, 0.7);
   line-height: 140%;
 }
 .why_choose_list:after {
@@ -102,4 +103,7 @@
   background: url("../img/why/Mask\ group.png") no-repeat;
   background-size: 641px;
   z-index: 10;
+}
+.item7_h4-2 {
+  display: none;
 }

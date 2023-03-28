@@ -1,0 +1,96 @@
+@media all and (max-width: 1730px) {
+  body .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  body .header ul li {
+    margin-right: 30px;
+  }
+  body .program_block ul {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .program_block h2 span::after {
+    display: none;
+  }
+  /* {
+    position: absolute;
+    content: "";
+    background: url(../img/fon-start.png) no-repeat;
+    background-size: 100%;
+    width: 1310px;
+    height: 1203px;
+    top: -208px;
+    left: 14px;
+    z-index: -2;
+  } */
+
+  /* SECTION  COLLEGE */
+  .program_block_college ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .program_block_college h2::before {
+    left: 588px;
+  }
+  .block_college_item1 {
+    margin-bottom: 52px;
+  }
+
+  .program_block_college {
+    height: 1425px;
+    background: url("../img/collage-back-grey.png") no-repeat center 52px,
+      url("../img/collage-back-violet.png") no-repeat center -22px;
+    background-size: auto 1362px;
+  }
+
+  /* SECTION  PREPOD */
+
+  .prepod_item4 {
+    display: none;
+  }
+  .h2_prepod {
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+
+  .prep_img1 {
+    margin-left: 191px;
+    margin-top: 20px;
+  }
+  .prep-btn {
+    margin-left: 482px;
+  }
+
+  /* section WHY CHOOSE */
+
+  .why_choose_list:after {
+    top: 850px;
+    left: 330px;
+    width: 643px;
+    height: 650px;
+    background-size: 587px;
+  }
+  .why_choose_list_item3 {
+    margin-top: 40px;
+  }
+  .why_choose {
+    background: url("../img/why/why-fone.png") no-repeat center,
+      url("../img/why/why-fone2.png") no-repeat top 42px center;
+    height: 1560px;
+    background-size: auto 1546px;
+  }
+
+  /* FEEDBACK */
+  .feedback_list_item3 {
+    display: none;
+  }
+  .feed_img1 {
+    margin-left: 160px;
+  }
+
+  .footer {
+    display: none;
+  }
+}

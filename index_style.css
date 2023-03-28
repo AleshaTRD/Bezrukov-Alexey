@@ -5,6 +5,24 @@ body {
 h2 {
   margin-left: 10px;
 }
+a {
+  color: rgb(4, 0, 255);
+}
+a:hover,
+a:focus {
+  text-shadow: 0 0 3px #6e20cc;
+  margin-left: 0.5em;
+  outline: none;
+  position: relative;
+  transition: margin 0.5s ease-in-out;
+}
+a:focus::before,
+a:hover::before {
+  content: ">";
+  position: absolute;
+  left: -12px;
+  color: transparent;
+}
 
 body {
   margin-left: 20px;

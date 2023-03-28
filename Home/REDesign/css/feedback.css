@@ -6,21 +6,24 @@
 
 .feedback_list {
   display: flex;
-  width: 1680px;
+  justify-content: space-evenly;
 }
 
 .feedback_list_item1 {
-  flex-basis: 540px;
+  width: 540px;
+  height: 261px;
   margin-right: 30px;
   box-shadow: 0px 30px 60px rgba(43, 44, 84, 0.1);
 }
 .feedback_list_item2 {
   flex-basis: 540px;
+  height: 261px;
   margin-right: 30px;
   box-shadow: 0px 30px 60px rgba(43, 44, 84, 0.1);
 }
 .feedback_list_item3 {
   flex-basis: 540px;
+  height: 261px;
   box-shadow: 0px 30px 60px rgba(43, 44, 84, 0.1);
 }
 .p_14 {
@@ -48,34 +51,22 @@
   top: -4px;
   left: 30px;
 }
-.span1_list1::after {
-  content: "";
-  position: absolute;
-  background: url(../img/feedback/otzyvyby.jpg) no-repeat;
-  width: 150px;
-  height: 33px;
-  top: 169px;
-  left: 30px;
-}
 
 .p_16 {
   padding-left: 30px;
   padding-right: 30px;
-  padding-bottom: 64px;
   margin-top: 21px;
   line-height: 140%;
   color: rgba(43, 44, 84, 0.7);
   position: relative;
 }
-.p_16::after {
-  content: "";
-  position: absolute;
-  background: url(../img/feedback/scrol.png) no-repeat;
-  width: 10px;
-  height: 110px;
-  top: 4px;
-  left: 529px;
+.feedback_list_item1 img,
+.feedback_list_item2 img,
+.feedback_list_item3 img {
+  margin-left: 30px;
+  margin-top: 15px;
 }
+
 .item2_h5 {
   font-family: "Montserrat";
   font-weight: 600;
@@ -127,15 +118,7 @@
   padding-top: 20px;
   position: relative;
 }
-.item2_p3::before {
-  content: "";
-  background: url("../img/feedback/yandex.jpg") no-repeat;
-  position: absolute;
-  width: 126px;
-  height: 40px;
-  left: 30px;
-  top: 91px;
-}
+
 .item3_h5 {
   position: relative;
   font-family: "Montserrat";
@@ -176,28 +159,9 @@
 .item3_p2 {
   line-height: 140%;
   color: rgba(43, 44, 84, 0.7);
-  padding-top: 11px;
   padding-left: 30px;
   padding-right: 30px;
   position: relative;
-}
-.item3_p2::before {
-  content: "";
-  background: url("../img/feedback/scrol.png") no-repeat;
-  position: absolute;
-  width: 44px;
-  height: 120px;
-  left: 530px;
-  top: 15px;
-}
-.item3_p2::after {
-  content: "";
-  background: url("../img/feedback/relax.png") no-repeat;
-  position: absolute;
-  width: 126px;
-  height: 40px;
-  left: 30px;
-  top: 140px;
 }
 
 .feed_img1 {
@@ -206,7 +170,35 @@
 }
 .feed_img2 {
   margin-left: 322px;
+  padding-bottom: 25px;
 }
 .feed_img3 {
   margin-left: 311px;
+}
+
+.descr {
+  overflow-y: auto;
+  height: 110px;
+
+  /* margin-bottom: 15px; */
+}
+
+/* width */
+.descr::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+.descr::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.descr::-webkit-scrollbar-thumb {
+  background: #8062f2;
+}
+
+/* Handle on hover */
+.descr::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

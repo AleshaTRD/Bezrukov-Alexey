@@ -1,6 +1,6 @@
 /* SECTION  PREPOD*/
 .h2_prepod {
-  margin-top: -96px;
+  margin-top: -49px;
   margin-bottom: 50px;
 }
 
@@ -31,8 +31,6 @@
   background: url(../img/prepod/hover.png) center no-repeat;
   background-size: 100% 95%;
   transition: 1s;
-}
-.prepod_item p {
 }
 
 .prepod_item1 {
@@ -118,7 +116,7 @@
 }
 .prep_img2 {
   margin-left: 322px;
-  margin-top: -10px;
+  padding-bottom: 25px;
 }
 .prep_img3 {
   margin-left: 311px;
@@ -130,7 +128,7 @@
   line-height: 120%;
   text-align: center;
   color: #0c1427;
-  margin-top: 200px;
+  margin-top: 120px;
 }
 .prep_p {
   margin-top: 20px;
@@ -139,6 +137,9 @@
   line-height: 120%;
   color: rgba(43, 44, 84, 0.7);
   text-align: center;
+}
+.prep_br {
+  display: none;
 }
 .prep-btn {
   padding: 20px 40px;

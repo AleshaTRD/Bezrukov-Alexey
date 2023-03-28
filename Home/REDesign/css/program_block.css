@@ -1,8 +1,6 @@
 /* program_block */
-
 .program_block h2 {
   margin-top: 99px;
-  height: 120px;
 }
 .program_block h2 span {
   position: relative;
@@ -14,8 +12,8 @@
   position: absolute;
   top: -17px;
   left: -85px;
-  width: 100%;
-  height: 100%;
+  width: 600px;
+  height: 200px;
   background: url(../img/block-icon.png) no-repeat;
   z-index: -1;
 }
@@ -34,21 +32,24 @@
 .program_block ul li::before {
   position: absolute;
   content: "";
-  width: 541px;
-  height: 609px;
+  width: 100%;
+  height: 100%;
   transform: rotate(-2.65deg);
   background-color: #8062f2;
   z-index: -1;
 }
 
-.block_item1 {
+.program_block .block_item1 {
   background: url(../img/mask1.png), url(../img/block1.png) no-repeat 100%;
+  background-size: 541px 609px;
 }
-.block_item2 {
+.program_block .block_item2 {
   background: url(../img/mask1.png), url(../img/block2.png) no-repeat 100%;
+  background-size: 100%;
 }
-.block_item3 {
+.program_block .block_item3 {
   background: url(../img/mask1.png), url(../img/block3.png) no-repeat 100%;
+  background-size: 541px 609px;
 }
 .program_block ul li h6 {
   font-weight: 700;
