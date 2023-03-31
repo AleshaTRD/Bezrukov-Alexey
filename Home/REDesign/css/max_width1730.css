@@ -90,7 +90,21 @@
     margin-left: 160px;
   }
 
-  .footer {
-    display: none;
+  /* FOOTER */
+  .social {
+    justify-content: end;
+    padding-left: 0px;
+    padding-right: 50px;
+    padding-top: 20px;
+  }
+
+  .social::before {
+    content: "";
+    position: absolute;
+    background: url(../img/footer/footer_logo.png) no-repeat;
+    top: 31px;
+    left: 118px;
+    width: 300px;
+    height: 200px;
   }
 }

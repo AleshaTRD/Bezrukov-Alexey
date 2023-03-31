@@ -32,6 +32,9 @@
   background-size: 100% 95%;
   transition: 1s;
 }
+.prepod_item:hover p {
+  color: #2b2c54;
+}
 
 .prepod_item1 {
   background: url(../img/prepod/prep1.png) no-repeat;

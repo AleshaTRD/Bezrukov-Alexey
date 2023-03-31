@@ -1,39 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <form
-            action="https://jsonplaceholder.typicode.com/posts"
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title><form action=""></form></title>
+    <style>
+      label {
+        user-select: none;
+        position: relative;
+      }
+
+      input[type="checkbox"] {
+        display: none;
+      }
+
+      label::before {
+        content: "";
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-image: url(../Bezrukov-Alexey/2.jpg);
+        background-size: 50px 50px;
+        top: 0px;
+        left: 0px;
+      }
+
+      input:checked + label::before {
+        content: "";
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-image: url(1.jpg);
+      }
+    </style>
+  </head>
+  <body>
+    <input type="checkbox" name="check" id="check" />
+    <label for="check">asasd</label>
+  </body>
+</html>
+
+<!-- 
+
+      
+    label {
+      user-select: none;
+      position: relative;
+  }
+      <form
+            action="http://fe.it-academy.by/TestForm.php"
             class="form"
             method="post"
-            autocomplete
-          >
-            <label for="name1">Enter you name</label>
-            <input
+                    >
+                    <label>Full name <input
               type="text"
               name="username"
-              placeholder="Name"
+              placeholder="Full Name"
               class="input"
-              id="name1"
-            />
+         /> </label> <br>
             <input
               type="email"
               name="email"
-              placeholder="E-mail"
+              placeholder="Email"
               class="input"
-            />
-            <input type="tel" name="phone" placeholder="Phone" class="input" />
-            <input type="checkbox" name="check" required />
-            <input type="checkbox" name="check1" />
-            <input type="checkbox" name="check2" />
-            <button type="submit" class="btn btn-submit">Go</button>
+            /> <br>
+
+            <input type="password" name="password" placeholder="password" class="input" /> <br>
+            <input type="date" name="date"  class="input" /> <br>
+            <select name="country" id="">
+              
+                <option value="RB">Belarus</option>
+                <option value="GB" >England</option>
+                <option value="Ger" >Germany</option> </select> <br>
+
+            <input type="radio" name="radio" value="femail" >femail
+            <input type="radio" name="radio" value="mail">mail
+            <input type="radio" name="radio" value="unknown" >unknown<br>
+
+
+            
+            <input type="checkbox" name="check"  value="Low calor"/>Low calor
+            <input type="checkbox" name="check1" value="Low salt"/> Low salt<br>
+
+            <input type="checkbox" name="check2" value="i ascept terms" />i ascept terms <br>
+
+           
+
+            <textarea name="text" cols="30" rows="10" placeholder="hello">chat</textarea> <br>
+            <button type="submit">Go</button>
           </form>
         </div>
-      </section>
-</body>
-</html>
+       -->

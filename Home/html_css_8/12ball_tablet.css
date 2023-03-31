@@ -1,0 +1,19 @@
+@media all and (max-width: 1000px) {
+  .float1 {
+    text-align: center;
+    float: none !important;
+  }
+  .menu {
+    background-size: 80px !important;
+  }
+  .content {
+    background: url(ball3.png) left bottom no-repeat,
+      url(ball3.png) right bottom no-repeat, url(ball3.png) left top no-repeat,
+      url(ball3.png) right top no-repeat !important;
+    background-size: 80px !important;
+  }
+  .baner {
+    flex-basis: 20% !important;
+    background-size: 80px !important;
+  }
+}

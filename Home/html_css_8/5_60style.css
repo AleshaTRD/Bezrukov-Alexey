@@ -1,0 +1,32 @@
+@media print {
+  .link {
+    display: none;
+  }
+  .link_print {
+    display: block !important;
+  }
+
+  a {
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+
+.link_print {
+  display: none;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 700;
+}
+.date {
+  color: green;
+}
+.yers {
+  color: red;
+}
+.text {
+  color: blue;
+  font-style: italic;
+}
