@@ -79,8 +79,9 @@
   .prepod_item3 {
     display: none;
   }
+
   .prepod_item1 {
-    margin-left: 66px;
+    margin-left: 20px;
   }
   .h2_prepod {
     margin-top: 324px;
@@ -136,14 +137,56 @@
     margin-bottom: 26px;
   }
   .feed_img1 {
-    margin-left: 2px;
+    margin-left: 20px;
     margin-top: 24px;
   }
   .feed_img2 {
-    margin-left: 108px;
+    margin-left: 80px;
     padding-bottom: 15px;
   }
   .feed_img3 {
-    margin-left: 82px;
+    margin-left: 75px;
+  }
+
+  /* FOOTER */
+  .f-container {
+    width: 361px;
+  }
+  .footer {
+    margin-top: 30px;
+    height: 1410px;
+    background: url("../img/footer/fone708.png") no-repeat 0px 25px;
+    background-size: cover;
+  }
+  .master {
+    display: none;
+  }
+  .master_small {
+    display: inline-block;
+    margin-top: 21px;
+  }
+  .social::before {
+    background: url(../img/footer/footer_logo_small.png) no-repeat;
+    background-size: 157px auto;
+    top: 39px;
+    left: 0px;
+  }
+  .social {
+    padding-top: 100px;
+    padding-right: 0px;
+    justify-content: space-between;
+  }
+  .fm-stolb:nth-child(2) {
+    order: 3;
+    padding-left: 0px;
+    padding-top: 30px;
+  }
+  .fm-stolb:nth-child(4) {
+    order: 2;
+    margin-top: 30px;
+  }
+  .fm-stolb:nth-child(3) {
+    padding-left: 0px;
+    margin-top: 18px;
   }
 }

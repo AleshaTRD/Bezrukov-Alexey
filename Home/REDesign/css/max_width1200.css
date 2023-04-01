@@ -358,6 +358,7 @@
   .feedback_list_item2 {
     flex-basis: 334px;
     height: 237px;
+    margin-right: 0px;
   }
 
   .descr {
@@ -378,7 +379,7 @@
   .feed_img1 {
     width: 44px;
     height: 44px;
-    margin-left: 2px;
+    margin-left: 12px;
     margin-top: 60px;
   }
   .feed_img2 {
@@ -389,5 +390,84 @@
     width: 44px;
     height: 44px;
     margin-left: 260px;
+  }
+  /* FOOTER */
+  .footer {
+    margin-top: 30px;
+    height: 868px;
+    background: url("../img/footer/fone1200.png") no-repeat 0px 25px;
+    background-size: cover;
+  }
+  .f-container {
+    width: 708px;
+    margin: 0 auto;
+  }
+  .social::before {
+    background-size: 157px 108px;
+    top: 25px;
+    left: 0px;
+    width: 200px;
+    height: 120px;
+  }
+  .social li {
+    margin-top: 100px;
+    margin-right: 20px;
+  }
+  .social li:last-child {
+    margin-right: 0px;
+  }
+  .social {
+    padding-top: 0px;
+    padding-right: 0px;
+  }
+  .footer-menu {
+    margin-top: 40px;
+    margin-left: 0px;
+    flex-wrap: wrap;
+  }
+  .fm-stolb {
+    width: 350px;
+  }
+
+  .fm-stolb h6 {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  .fm-stolb p {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .fm-stolb li,
+  .fm-stolb span {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .fm-stolb:nth-child(3) {
+    order: 4;
+    padding-left: 75px;
+    padding-top: 6px;
+  }
+  .fm-stolb:nth-child(4) {
+    order: 3;
+  }
+  .fm-stolb2 li {
+    padding-bottom: 12px;
+  }
+  .fm-stolb2 {
+    padding-left: 75px;
+  }
+  .master {
+    display: inline-block;
+    margin-top: 47px;
+  }
+  .copyright {
+    display: inline-block;
+    margin-top: 21px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #f6f4fe;
   }
 }

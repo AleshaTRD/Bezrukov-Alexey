@@ -1,69 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        textarea{
-            border: 0px;
-            padding-top: 3px;
-        }
+      body {
+        border: 3px solid red;
+      }
+      select {
+        margin-left: 149px;
+      }
+      body {
+        font-size: 20px;
+      }
+      textarea {
+        padding-top: 3px;
+      }
+      .input {
+        /* position: absolute;
+        top: 1px;
+        bottom: 1px;
+        right: 1px;
+        left: 1px; */
+      }
+      .radio1 {
+        margin-left: 116px;
+      }
+      .check {
+        margin-left: 11px;
+      }
+      .wide {
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+      .textarea {
+        margin-top: 20px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <form
-            action="http://fe.it-academy.by/TestForm.php"
-            class="form"
-            method="post"
-                    >
-<p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio quaerat officiis temporibus sit dolorem quisquam, officia perferendis. Veniam laudantium accusamus labore voluptatem distinctio quisquam facere, ducimus, totam non necessitatibus placeat?</p>
-
-<label for="">Название статьи</label> <textarea name="название" cols="30" rows="1" placeholder="введите название"></textarea> <br>
-                    <label for="ryb" >Рубрика: <br> 
-                        <select name="rybrika" id="ryb">
-              
-                            <option value="Pr">програмирование</option>
-                            <option value="Des" >дизайн</option>
-                            <option value="prog" >progect managment</option> </select>
-                                            <!-- <input
-              type="text"
-              name="username"
-              placeholder="Full Name"
-              class="input"
-         /> </label> <br>
-            <input
-              type="email"
-              name="email"
-              placeholder="Email"
-              class="input"
-            /> <br> -->
-
-            <!-- <input type="password" name="password" placeholder="password" class="input" /> <br>
-            <input type="date" name="date"  class="input" /> <br>
-            <select name="country" id="">
-              
-                <option value="RB">Belarus</option>
-                <option value="GB" >England</option>
-                <option value="Ger" >Germany</option> </select> <br>
-
-            <input type="radio" name="radio" value="femail" >femail
-            <input type="radio" name="radio" value="mail">mail
-            <input type="radio" name="radio" value="unknown" >unknown<br> -->
-
-
-<!--             
-            <input type="checkbox" name="check"  value="Low calor"/>Low calor
-            <input type="checkbox" name="check1" value="Low salt"/> Low salt<br>
-
-            <input type="checkbox" name="check2" value="i ascept terms" />i ascept terms <br>
-
-           
-
-            <textarea name="text" cols="30" rows="10" placeholder="hello">chat</textarea> <br> -->
-            <button type="submit">Go</button>
-          </form>
-        </div>
-</body>
+      action="http://fe.it-academy.by/TestForm.php"
+      class="form"
+      method="post"
+    >
+      <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+      <label for="">Название статьи:</label>
+      <div class="wide">
+        <input
+          type="text"
+          name="nazvanie_statyi"
+          placeholder="название статьи"
+          class="input"
+        />
+      </div>
+      <br />
+      <label for="ryb">Рубрика:</label>
+      <select name="rybrika" id="ryb">
+        <option value="Pr">програмирование</option>
+        <option value="Des">дизайн</option>
+        <option value="prog">progect managment</option>
+      </select>
+      <br />
+      <label>Публикация:</label>
+      <input type="radio" name="site" class="radio1" />на сайте
+      <input type="radio" name="journal " />в журнале
+      <input type="radio" name="site and journal" />на сайте и в журнале <br />
+      <label for="">Разрешить комментарии:</label>
+      <input
+        type="checkbox"
+        class="check"
+        name="check"
+        value="i ascept coments"
+      />
+      <br />
+      <label>Текст статьи:</label> <br />
+      <textarea name="text" cols="100" rows="2" class="textarea"></textarea>
+      <br />
+      <button type="submit">Опубликовать</button>
+    </form>
+  </body>
 </html>
