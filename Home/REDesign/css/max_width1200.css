@@ -470,4 +470,8 @@
     line-height: 100%;
     color: #f6f4fe;
   }
+  .fm-stolb a {
+    font-size: 16px;
+    line-height: 19px;
+  }
 }

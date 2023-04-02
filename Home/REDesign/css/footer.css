@@ -79,6 +79,8 @@
 }
 
 .fm-stolb a {
+  font-family: "Inter";
+  font-weight: 400;
   font-size: 18px;
   line-height: 120%;
   color: #f6f4fe;

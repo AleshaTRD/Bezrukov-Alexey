@@ -4,10 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Maket_Form</title>
     <style>
-      body {
-        border: 3px solid red;
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
       }
       select {
         margin-left: 149px;
@@ -15,15 +17,8 @@
       body {
         font-size: 20px;
       }
-      textarea {
-        padding-top: 3px;
-      }
       .input {
-        /* position: absolute;
-        top: 1px;
-        bottom: 1px;
-        right: 1px;
-        left: 1px; */
+        width: 100%;
       }
       .radio1 {
         margin-left: 116px;
@@ -32,13 +27,44 @@
         margin-left: 11px;
       }
       .wide {
-        position: relative;
-        width: 90%;
-        margin: 0 auto;
-        overflow: hidden;
+        margin-left: 230px;
       }
       .textarea {
+        width: 100%;
+      }
+      .radio2 {
+        margin-left: 10px;
+      }
+      form {
         margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .wide12 {
+        float: left;
+      }
+      .media {
+        display: none;
+      }
+      @media all and (max-width: 720px) {
+        .media {
+          display: inline-block;
+        }
+        select {
+          margin-left: 0px;
+        }
+        .radio2 {
+          margin-left: 0px;
+        }
+        .check {
+          margin-left: 0px;
+        }
+        .wide {
+          margin-left: 0px;
+        }
+        .radio1 {
+          margin-left: 0px;
+        }
       }
     </style>
   </head>
@@ -49,38 +75,41 @@
       method="post"
     >
       <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
-      <label for="">Название статьи:</label>
-      <div class="wide">
-        <input
-          type="text"
-          name="nazvanie_statyi"
-          placeholder="название статьи"
-          class="input"
-        />
-      </div>
       <br />
-      <label for="ryb">Рубрика:</label>
+      <label class="wide12">Название статьи: </label> <br class="media" />
+      <div class="wide">
+        <input type="text" name="nazvanie_statyi" class="input" />
+      </div>
+
+      <br />
+      <label for="ryb">Рубрика:</label> <br class="media" />
       <select name="rybrika" id="ryb">
-        <option value="Pr">програмирование</option>
-        <option value="Des">дизайн</option>
-        <option value="prog">progect managment</option>
+        <option value="компьютерная техника">компьютерная техника</option>
+        <option value="графика и дизайн">графика и дизайн</option>
+        <option value="програмирование" selected>програмирование</option>
       </select>
       <br />
-      <label>Публикация:</label>
+      <label>Публикация:</label> <br class="media" />
       <input type="radio" name="site" class="radio1" />на сайте
-      <input type="radio" name="journal " />в журнале
-      <input type="radio" name="site and journal" />на сайте и в журнале <br />
-      <label for="">Разрешить комментарии:</label>
+      <br class="media" />
+      <input type="radio" name="journal " class="radio2" />в журнале
+      <br class="media" />
+      <input type="radio" name="site and journal" class="radio2" />на сайте и в
+      журнале <br />
+      <label for="">Разрешить комментарии:</label> <br class="media" />
       <input
         type="checkbox"
         class="check"
         name="check"
         value="i ascept coments"
+        checked
       />
       <br />
       <label>Текст статьи:</label> <br />
-      <textarea name="text" cols="100" rows="2" class="textarea"></textarea>
-      <br />
+      <div class="div_text">
+        <textarea name="text" cols="100" rows="2" class="textarea"></textarea>
+      </div>
+
       <button type="submit">Опубликовать</button>
     </form>
   </body>
