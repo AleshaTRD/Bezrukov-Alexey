@@ -4,9 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=div, initial-scale=1.0" />
+    <link rel="stylesheet" href="js.js" />
     <title>Document</title>
     <style>
-      .one {
+      .owl-carousel {
+        display: flex;
+      }
+      .item {
+        width: 100px;
+        height: 100px;
+        background-color: aquamarine;
+      }
+      /* .one {
         width: 100%;
         height: 100vh;
         display: flex;
@@ -16,12 +25,44 @@
         height: 100px;
         background-color: aqua;
         margin: auto;
-      }
+      } */
     </style>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 5,
+          },
+        },
+      });
+    </script>
   </head>
   <body>
-    <div class="one">
+    <!-- <div class="one">
       <div class="two"></div>
+    </div> -->
+    <div class="owl-carousel owl-theme">
+      <div class="item"><h4>1</h4></div>
+      <div class="item"><h4>2</h4></div>
+      <div class="item"><h4>3</h4></div>
+      <div class="item"><h4>4</h4></div>
+      <div class="item"><h4>5</h4></div>
+      <div class="item"><h4>6</h4></div>
+      <div class="item"><h4>7</h4></div>
+      <div class="item"><h4>8</h4></div>
+      <div class="item"><h4>9</h4></div>
+      <div class="item"><h4>10</h4></div>
+      <div class="item"><h4>11</h4></div>
+      <div class="item"><h4>12</h4></div>
     </div>
   </body>
 </html>

@@ -1,0 +1,51 @@
+.section_banner {
+  display: flex;
+  justify-content: center;
+  width: 1813px;
+  height: 500px;
+  margin: 39px auto 0px auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.section_banner a {
+  border-radius: 10px;
+}
+
+.blik_button {
+  position: fixed;
+  top: 50vh;
+  left: 0px;
+  background: #d34040;
+  color: #ffffff;
+  /* alpha-color: rgba(211, 64, 64, 0.5); */
+  border-radius: 0 0 4px 4px;
+  transform: rotate(269deg) translate(-40.2%, 0%);
+  transform-origin: calc(0% - 1px) 0%;
+  transition: none;
+  height: 48px;
+  line-height: 1.5;
+  white-space: nowrap;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 7px 20px 7px 7px;
+  font-size: 19px;
+}
+.blik_button::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  bottom: -50%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.6) 100%
+  );
+  width: 45px;
+  transform: skewX(-22deg);
+  left: -65%;
+  animation-name: blick;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+/* .blik_button_text */

@@ -1,0 +1,34 @@
+$maincolor: #e575f6;
+$mainsize: 30px;
+@mixin font($fs: 18px, $fw: 400) {
+  font-size: $fs;
+  font-style: italic;
+  font-weight: $fw;
+  font-family: "Times New Roman", Times, serif;
+}
+
+div {
+  background-color: $maincolor;
+  ul {
+    color: red;
+    li {
+      font-size: $mainsize;
+      &:last-child:hover {
+        color: blue;
+      }
+
+      span {
+        font-weight: 700;
+        &:last-child:hover {
+          color: blue;
+        }
+      }
+    }
+  }
+}
+p {
+  @include font;
+}
+.mix {
+  @include font(30px, 700);
+}

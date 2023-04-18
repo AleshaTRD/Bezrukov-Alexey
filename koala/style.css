@@ -1,0 +1,34 @@
+div {
+  background-color: #e575f6;
+}
+div ul {
+  color: red;
+}
+div ul li {
+  font-size: 30px;
+}
+div ul li:last-child:hover {
+  color: blue;
+}
+div ul li span {
+  font-weight: 700;
+}
+div ul li span:last-child:hover {
+  color: blue;
+}
+
+p {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.mix {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/*# sourceMappingURL=style.css.map */
