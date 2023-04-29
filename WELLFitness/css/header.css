@@ -100,3 +100,70 @@ header a {
 .header_nav li a {
   color: #ffffff;
 }
+.blik_button {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 50vh;
+  left: 0px;
+  background: #d34040;
+  color: #ffffff;
+  box-shadow: 1.7px 5.8px 21px 0 rgba(211, 64, 64, 0.5);
+  border-radius: 0 0 4px 4px;
+  transform: rotate(270deg) translate(-40.2%, 0%);
+  transform-origin: calc(0% - 1px) 0%;
+  transition: none;
+  height: 48px;
+  line-height: 1.5;
+  white-space: nowrap;
+  padding: 7px 20px 7px 7px;
+  font-size: 19px;
+  overflow: hidden;
+}
+.blik_button:hover {
+  filter: brightness(110%);
+}
+
+.blik_button img {
+  transform: rotate(90deg);
+  padding-left: 15px;
+}
+.blik_button span:nth-child(1) {
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 4px;
+  width: 32px;
+  height: 32px;
+}
+.blik_button_text {
+  line-height: 1.5;
+  font-size: 19px;
+  font-weight: 500;
+  margin-left: 12px;
+}
+.blik_button::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  bottom: -50%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.6) 100%
+  );
+  width: 45px;
+  transform: skewX(-22deg);
+  left: -50%;
+  animation-name: blick;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blick {
+  from {
+    margin-left: 200;
+  }
+  to {
+    margin-left: 509px;
+  }
+}

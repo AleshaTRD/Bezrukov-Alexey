@@ -12,6 +12,7 @@
   background-size: cover;
   border-radius: 6px;
 }
+
 .catalog_item1 {
   background: url(../img/for_home/item1.png) no-repeat;
 }
@@ -121,6 +122,7 @@
 }
 
 .catalog_btn2 {
+  display: inline-block;
   font-weight: 700;
   line-height: 17px;
   color: #f53b49;
@@ -128,21 +130,16 @@
   padding: 12px 20px 13px 20px;
   border-radius: 6px;
 }
-
-/* .catalog a:after {
-  content: "";
-  position: absolute;
-  top: -50%;
-  bottom: -50%;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 0.1),
-    rgba(255, 255, 255, 0.6) 100%
-  );
-  width: 45px;
-  transform: skewX(-22deg);
-  left: -65%;
-  animation-name: blick;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-} */
+.catalog_btn2:hover {
+  background-color: #f53b49;
+  color: #fff;
+  transition: 0.4;
+}
+.btn2_mt42 {
+  margin-top: 42px;
+}
+.about_a_svg:hover,
+.about_a_svg_w:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}

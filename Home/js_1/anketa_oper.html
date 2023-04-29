@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ANKETA_IF</title>
+  </head>
+  <body>
+    <script>
+      var firstname = prompt("Введите вашу фамилию");
+      var name = prompt("Введите ваше имя");
+      var surname = prompt("Ведите ваше отчество");
+      do {
+        var ageS = prompt("Введите ваш возраст:");
+        var age = parseInt(ageS);
+      } while (isNaN(age));
+      var male = confirm("ваш пол мужской?");
+
+      var ageDay = age * 365;
+      var age5year = age + 5;
+
+      male === true ? (pol = "Мужской") : (pol = "Женский");
+
+      male === true
+        ? age > 63
+          ? (pens = "да")
+          : (pens = "нет")
+        : age > 58
+        ? (pens = "да")
+        : (pens = "нет");
+
+      var result = `
+              ваше ФИО: ${firstname + " " + name + " " + surname}
+              ваш возраст в годах: ${age}
+              ваш возраст в днях: ${ageDay}
+              через 5 лет вам будет: ${age5year}
+              ваш пол: ${pol}
+              вы на пенсии: ${pens}
+          `;
+      alert(result);
+    </script>
+    конец
+  </body>
+</html>

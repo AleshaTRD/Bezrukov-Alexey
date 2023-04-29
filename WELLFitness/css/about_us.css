@@ -1,0 +1,185 @@
+body {
+  color: #384255;
+}
+.about_us h1 {
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 1.1;
+  color: #f53b49;
+  padding-top: 50px;
+  padding-bottom: 23px;
+}
+
+.about_us hr {
+  height: 1px;
+  border: none;
+  color: rgba(133, 143, 164, 0.2);
+  background-color: rgba(133, 143, 164, 0.2);
+  height: 1px;
+  margin-bottom: 30px;
+}
+.au_banner {
+  height: 624px;
+  display: flex;
+  border-radius: 8px;
+}
+.au_banner div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  background-color: #1a1a25;
+  border-radius: 8px 0 0 8px;
+  flex-basis: 578px;
+}
+.au_banner div:nth-child(2) img {
+  border-radius: 0px 8px 8px 0px;
+  width: 832px;
+}
+.au_banner h3 {
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 130%;
+  color: #fff;
+  margin-left: 60px;
+}
+.au_banner h3 span {
+  color: #f53b49;
+}
+
+.au_includ {
+  display: flex;
+  margin-top: 50px;
+}
+.au_menu {
+  flex-basis: 210px;
+}
+.au_menu li {
+  border-bottom: 1px solid rgba(133, 143, 164, 0.2);
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+.au_menu li a {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #384255;
+}
+.au_menu li:nth-child(1) a {
+  color: #f53b49;
+}
+
+.au_content {
+  flex-basis: 1200px;
+  border-left: 1px solid rgba(133, 143, 164, 0.2);
+}
+.au_content_p {
+  width: 1010px;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 18px;
+  line-height: 150%;
+}
+.au_desigion_list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+  margin-bottom: 30px;
+}
+.au_desigion_list li {
+  flex-basis: 210px;
+  margin-right: 30px;
+}
+.au_desigion_list li:nth-child(1) {
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.au_desigion_list li:nth-child(2),
+.au_desigion_list li:nth-child(3) {
+  margin-top: 50px;
+}
+.au_desigion_list li:nth-child(4) {
+  margin-top: 30px;
+  margin-left: 150px;
+}
+.au_desigion_list li:nth-child(5) {
+  margin-top: 30px;
+}
+.au_desigion_list span {
+  display: block;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 45px;
+}
+.au_desigion_list p {
+  margin-top: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+}
+.au_grey_line {
+  margin-left: 50px;
+}
+.au_geo {
+  height: 582px;
+  background: url(../img/about/map.png) no-repeat;
+  background-size: contain;
+  margin-left: 50px;
+  margin-top: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+h3 {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.au_mi_segodnya {
+  margin-left: 50px;
+}
+.au_mi_segodnya h3 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.au_photo {
+  display: flex;
+  flex-wrap: wrap;
+}
+.au_photo img {
+  width: 495px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border-radius: 6px;
+}
+.au_mi_segodnya_list {
+  list-style-type: disc;
+  width: 1000px;
+  font-size: 16px;
+  line-height: 150%;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.au_mi_segodnya .au_grey_line {
+  margin-left: 0px;
+}
+
+.au_the-reason {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 90px;
+}
+.au_the-reason div {
+  width: 495px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.au_the-reason div img {
+  width: 495px;
+  border-radius: 6px;
+}
+.au_the-reason div p {
+  font-size: 18px;
+  line-height: 1.5;
+}
