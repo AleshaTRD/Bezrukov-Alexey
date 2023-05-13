@@ -1,0 +1,107 @@
+.card {
+  width: 270px;
+  height: 580px;
+  background-color: #fff;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border-radius: 6px;
+  position: relative;
+}
+.card:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), 0 4px 30px rgba(19, 15, 38, 0.1);
+  transition: 0.5s ease-in;
+}
+
+.catalogFor_content {
+  display: flex;
+  margin-top: 100px;
+}
+#app {
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.filter {
+  /* background-color: blue; */
+  width: 210px;
+  border-left: 1px solid rgba(133, 143, 164, 0.2);
+}
+.card_img {
+  padding: 25px;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  background: url(../img/CatalogFor-Pages/ico_like.png) center no-repeat;
+  background-size: 46px 17px;
+  width: 50px;
+  height: 20px;
+  top: 10px;
+  right: 10px;
+}
+
+.discription {
+  font-size: 14px;
+  line-height: 140%;
+  color: #909cb5;
+  padding-left: 20px;
+  margin-top: 4px;
+}
+.znachenie {
+  font-size: 14px;
+  line-height: 140%;
+  font-weight: 500;
+  color: rgba(56, 66, 85, 1);
+}
+
+.nalich_img {
+  padding-left: 20px;
+}
+.card_name {
+  padding-left: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #1a1a25;
+}
+
+.price_sell button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px 10px;
+  border: 0px;
+  background: #f53b49;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.price_sell button:hover {
+  background-color: #e32a38;
+  transition: 0.5s ease-in;
+}
+
+.price_sell {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 230px;
+  position: absolute;
+  top: 520px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.catalog_price {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 23px;
+  color: #1a1a25;
+}
+input {
+  margin-left: 30px;
+  color: red;
+  background-color: aquamarine;
+}

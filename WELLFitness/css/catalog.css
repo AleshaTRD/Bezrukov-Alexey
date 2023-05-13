@@ -12,7 +12,9 @@
   background-size: cover;
   border-radius: 6px;
 }
-
+.catalog h2 {
+  margin-top: 100px;
+}
 .catalog_item1 {
   background: url(../img/for_home/item1.png) no-repeat;
 }
