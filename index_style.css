@@ -39,7 +39,7 @@ span {
   justify-content: space-evenly;
   align-items: normal;
   flex-wrap: wrap;
-  height: 1000px;
+  height: 800px;
 }
 .el {
   box-shadow: 4px 3px 15px 7px rgba(82, 59, 28, 0.2);
@@ -47,7 +47,7 @@ span {
   height: 250px;
   padding-left: 15px;
   padding-bottom: 20px;
-  margin-left: 60px;
+  margin: 20px;
 }
 img {
   vertical-align: bottom;

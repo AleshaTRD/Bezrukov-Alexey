@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>anim</title>
+    <style>
+      .anim {
+        display: flex;
+        width: 800px;
+        background-color: aquamarine;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      @keyframes Animation {
+        from {
+          color: red;
+        }
+        to {
+          color: blue;
+        }
+      }
+      h1 {
+        color: red;
+
+        animation: Animation 3s infinite;
+      }
+      .anim:hover h2 {
+        transform: scale(2);
+      }
+      .anim:hover h3 {
+        transform: rotate(180deg);
+        color: blueviolet;
+      }
+      .anim:hover h4 {
+        transform: translateY(100px);
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="anim">
+      <h1>Привет!</h1>
+      <h2>Это</h2>
+      <h3>Тест</h3>
+      <h4>Анимации</h4>
+    </div>
+  </body>
+</html>
