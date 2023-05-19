@@ -9,20 +9,27 @@
 }
 .card:hover {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), 0 4px 30px rgba(19, 15, 38, 0.1);
-  transition: 0.5s ease-in;
+  transition: 0.3s ease-in;
 }
-
+.filter_for {
+  position: sticky;
+  top: 0px;
+  margin-left: 30px;
+  cursor: pointer;
+}
 .catalogFor_content {
+  position: relative;
   display: flex;
   margin-top: 100px;
 }
 #app {
+  position: relative;
   width: 1200px;
   display: flex;
   flex-wrap: wrap;
 }
 .filter {
-  /* background-color: blue; */
+  position: sticky;
   width: 210px;
   border-left: 1px solid rgba(133, 143, 164, 0.2);
 }
@@ -79,9 +86,13 @@
   color: #ffffff;
   cursor: pointer;
 }
+.price_sell button img {
+  margin-right: 10px;
+}
+
 .price_sell button:hover {
   background-color: #e32a38;
-  transition: 0.5s ease-in;
+  transition: 0.3s ease-in;
 }
 
 .price_sell {
@@ -99,9 +110,4 @@
   font-size: 17px;
   line-height: 23px;
   color: #1a1a25;
-}
-input {
-  margin-left: 30px;
-  color: red;
-  background-color: aquamarine;
 }

@@ -1,0 +1,303 @@
+@media all and (max-width: 1000px) {
+  body .container {
+    width: 350px;
+    margin: 0 auto;
+  }
+  h2 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  .au_banner {
+    display: block;
+  }
+  .au_banner div:nth-child(2) img {
+    width: 350px;
+    border-radius: 0px 0px 6px 6px;
+  }
+  .au_banner div:nth-child(1) {
+    height: 262px;
+    border-radius: 6px 6px 0px 0px;
+  }
+  .au_banner div:nth-child(2) {
+    border-radius: 0px 0px 6px 6px;
+  }
+  .au_banner h3 {
+    font-size: 22px;
+  }
+  .au_menu2 {
+    display: flex;
+    width: 350px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 170px;
+  }
+  .au_content_p {
+    width: 350px;
+    font-size: 16px;
+  }
+  .au_desigion_list {
+    width: 350px;
+  }
+  .au_desigion_list span {
+    font-size: 30px;
+    line-height: 110%;
+  }
+  .au_desigion_list li:nth-child(1) {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .au_desigion_list li:nth-child(2),
+  .au_desigion_list li:nth-child(3) {
+    margin-top: 0px;
+  }
+  .au_desigion_list li:nth-child(4) {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .au_desigion_list li:nth-child(5) {
+    margin-top: 0px;
+  }
+  .au_content {
+    width: 350px;
+    flex-wrap: wrap;
+  }
+  .au_desigion_list li {
+    flex-basis: 165px;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  .au_desigion_list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .line222 {
+    display: none;
+  }
+  au_geo {
+    height: 582px;
+    background: url(../img/about/map.png) no-repeat;
+    background-size: 300px 200px;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .about_us h1 {
+    font-size: 30px;
+  }
+  .au_geo {
+    height: 270px;
+    background-size: 350px 250px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .au_mi_segodnya_list {
+    width: 350px;
+    margin-left: 0px;
+    font-size: 14px;
+  }
+  .au_grey_line {
+    width: 350px;
+  }
+  .au_mi_segodnya .au_photo img {
+    width: 350px;
+  }
+  .au_the-reason div p {
+    width: 350px;
+    font-size: 14px;
+  }
+  .au_the-reason div img {
+    width: 350px;
+  }
+
+  /* Page Card */
+  .product_card h1 {
+    font-size: 24px;
+  }
+  #tabs .tabs_big_img {
+    width: 350px;
+  }
+  #tabs .tabs_small_img {
+    width: 39px;
+  }
+  .img-right_side {
+    display: none;
+  }
+  .img-right_side_hiden {
+    display: block;
+  }
+  .img-right_side_hiden .haract-price p {
+    width: 350px;
+  }
+  .img-right_side_hiden .product_price1 h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #1a1a25;
+    margin-left: 20px;
+    margin-top: 12px;
+  }
+
+  .img-right_side_hiden .product_price1 h4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 10px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    background: #909cb5;
+    border-radius: 4px;
+    margin: 16px 90px 16px 20px;
+  }
+  .img-right_side_hiden .product_price1 h4 span {
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+  }
+
+  .img-right_side_hiden .product_price1 .vnalichii {
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+  .img-right_side_hiden .product_price1 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px 10px;
+    border: 0px;
+    background: #f53b49;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  .img-right_side_hiden .haract-price div {
+    height: 250px;
+  }
+  .char_descr {
+    padding-top: 30px;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+  }
+  .accordion-h1 {
+    display: none;
+  }
+  .ui-accordion .ui-accordion-header {
+    padding: 10px 10px 10px 0;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .span2 {
+    text-align: right;
+    margin-left: 10px;
+    font-family: "Inter", sans-serif;
+    color: #1a1a25;
+    font-size: 13px;
+  }
+  .stroka1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .span1 {
+    width: 180px;
+
+    font-size: 13px;
+  }
+  .footer_Card {
+    margin-top: 100px;
+  }
+
+  /* Catalog_FOR */
+
+  .banner_for {
+    width: 100%;
+  }
+  .catalogFor h1 {
+    font-size: 26px;
+  }
+  .catalogFor_content {
+    margin-top: 30px;
+  }
+  .filter_for {
+    width: 120px;
+  }
+  .card_img {
+    padding: 10px;
+    width: 180px;
+  }
+  .card_name {
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 110%;
+  }
+  .nalich_img {
+    padding-left: 10px;
+  }
+  .discription {
+    font-size: 12px;
+    line-height: 110%;
+    padding-left: 10px;
+    margin-top: 3px;
+  }
+  .znachenie {
+    font-size: 12px;
+    line-height: 110%;
+    font-weight: 500;
+  }
+  .card {
+    width: 230px;
+    height: 460px;
+
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+  }
+  .price_sell {
+    justify-content: flex-start;
+    top: 410px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .price_sell button {
+    padding: 5px 15px 5px;
+    align-items: center;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1;
+    margin-left: 10px;
+  }
+  .foterCatalogFor {
+    margin-top: 60px;
+  }
+
+  .project .pbimg {
+    width: 350px;
+  }
+  .nasi_project div {
+    flex-direction: 350px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .nasi_project div img {
+    width: 350px;
+  }
+  .ProjBTN {
+    display: none;
+  }
+  .au_menu2 {
+    margin-top: 20px;
+  }
+}

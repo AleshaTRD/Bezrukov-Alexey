@@ -1,12 +1,46 @@
+.car1 {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  width: 2500px;
+  height: 550px;
+  z-index: 99;
+}
+.carousel-cont {
+  position: relative;
+  width: 100%;
+  height: 620px;
+}
+.carousel-cont::after {
+  position: absolute;
+  content: "";
+  top: 0px;
+  left: 1260px;
+  width: 400px;
+  height: 540px;
+  background: linear-gradient(
+    90deg,
+    rgba(247, 247, 247, 0.2),
+    rgba(247, 247, 247, 0.9) 100%
+  );
+
+  z-index: 100;
+}
+
 .owl-item {
+  margin-top: 10px;
+  margin-bottom: 11px;
   width: 300px;
   height: 505px;
   background-color: #fff;
   border-radius: 6px;
   transition: 0.3s ease-in;
 }
+/* .owl-carousel .promo {
+  background: #ffffff !important;
+} */
 .owl-item:hover {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), 0 4px 30px rgba(19, 15, 38, 0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), 0 4px 10px rgba(19, 15, 38, 0.1);
   transition: 0.3s ease-in;
 }
 .owl-carousel .owl-item .promo_img {
@@ -21,6 +55,17 @@
   left: 10px;
   width: 20px;
   height: 20px;
+}
+
+.car1 .owl-prev {
+  position: absolute;
+  top: 92%;
+  left: 30vw;
+}
+.car1 .owl-next {
+  position: absolute;
+  top: 92%;
+  left: 50vw;
 }
 .promotion hr {
   height: 1px;
@@ -94,6 +139,7 @@
   font-size: 14px;
   line-height: 17px;
   color: #ffffff;
+  cursor: pointer;
 }
 .promo_reyting {
   margin-left: 20px;

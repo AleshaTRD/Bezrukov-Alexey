@@ -7,6 +7,7 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   background-color: #f7f7f7;
+  overflow-x: hidden;
 
   /* background: url(../img/for_home/back.png) no-repeat ;
   background-size: cover; */
@@ -20,6 +21,14 @@ body {
 ul {
   list-style-type: none;
 }
+h1 {
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 1.1;
+  color: #f53b49;
+  padding-top: 50px;
+  padding-bottom: 23px;
+}
 h2 {
   font-weight: 700;
   font-size: 30px;
@@ -28,6 +37,14 @@ h2 {
   margin-top: 120px;
   margin-bottom: 30px;
   color: #f53b49;
+}
+hr {
+  height: 1px;
+  border: none;
+  color: rgba(133, 143, 164, 0.2);
+  background-color: rgba(133, 143, 164, 0.2);
+  height: 1px;
+  margin-bottom: 30px;
 }
 
 /* .btn {

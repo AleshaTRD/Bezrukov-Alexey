@@ -1,0 +1,65 @@
+.head_cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.proj_header h3 {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.project .pbimg {
+  width: 1410px;
+}
+.proj_header {
+  border-bottom: 1px solid rgba(133, 143, 164, 0.2);
+}
+
+.head_cont div {
+  margin-left: 30px;
+  padding-bottom: 20px;
+  flex-direction: 400px;
+}
+.head_cont div p {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.head_cont div p img {
+  margin-right: 10px;
+}
+.ProjBTN {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px 13px;
+  background: #f53b49;
+  border-radius: 4px;
+  color: #ffffff;
+}
+.nasi_project {
+  margin-left: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.nasi_project div {
+  flex-direction: 500px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+}
+.proj_img h3 {
+  margin: 30px;
+}
+.nasi_project div h4 {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.project_footer {
+  margin-top: 60px;
+}
+.nasi_project div img {
+  width: 480px;
+}

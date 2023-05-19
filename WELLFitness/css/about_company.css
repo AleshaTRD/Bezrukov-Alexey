@@ -1,5 +1,6 @@
 .about_up {
   display: flex;
+  margin-top: 80px;
 }
 .about_up_items {
   display: flex;
@@ -41,6 +42,7 @@
   margin-bottom: 28px;
   width: 63px;
 }
+
 .about_up h5 {
   font-weight: 800;
   font-size: 20px;
@@ -101,7 +103,7 @@
 }
 
 .about_down h3 {
-  font-size: 34px;
+  font-size: 28px;
   font-weight: 400;
   line-height: 140%;
   color: #384255;
@@ -122,6 +124,7 @@
 
   width: 1099px;
   height: 675px;
-  top: -75px;
-  left: 550px;
+  top: -175px;
+  left: 460px;
+  z-index: -1;
 }

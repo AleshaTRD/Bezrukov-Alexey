@@ -50,6 +50,10 @@
   color: #1a1a25;
   margin-left: 30px;
 }
+.btn2brands {
+  display: inline-block;
+  margin-bottom: 40px;
+}
 .btn_ideas {
   display: inline-block;
   font-weight: 700;

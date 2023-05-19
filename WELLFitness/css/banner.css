@@ -11,39 +11,41 @@
   border-radius: 10px;
 } */
 .section_banner {
-  width: 1800px;
+  width: 90vw;
+  height: 25vw;
   margin: 39px auto 0px auto;
 }
 #car2 .owl-item {
-  height: 500px;
-  width: 1800px;
+  height: 25vw;
+  /* width: 90vw; */
 }
 #car2 .banner {
-  height: 500px;
+  height: 25vw;
   border-radius: 10px;
 }
 #car2 .banner1 {
   background: url(../img/banner/banner1.png) no-repeat;
-  background-size: 1800px 500px;
+  background-size: 90vw 25vw;
 }
 #car2 .banner2 {
   background: url(../img/banner/banner2.webp) no-repeat;
+  background-size: 90vw 25vw;
 }
 #car2 .banner3 {
   background: url(../img/banner/banner3.png) no-repeat;
-  background-size: 1800px 500px;
+  background-size: 90vw 25vw;
 }
 #car2 .banner4 {
   background: url(../img/banner/banner4.png) no-repeat;
-  background-size: 1800px 500px;
+  background-size: 90vw 25vw;
 }
-.owl-prev {
+#car2 .owl-prev {
   position: absolute;
-  top: 395px;
-  left: 1465px;
+  top: 70%;
+  left: 45%;
 }
-.owl-next {
+#car2 .owl-next {
   position: absolute;
-  top: 395px;
-  left: 1535px;
+  top: 70%;
+  left: 55%;
 }

@@ -8,4 +8,17 @@
 @import url(footer.css);
 /* Page About As */
 @import url(about_us.css);
+/* Page catalog_for*/
 @import url(catalog_for.css);
+/* Page Product_card*/
+@import url(product_card.css);
+/* Page Project*/
+@import url(projectPage.css);
+
+/* adaptiv index */
+@import url(maxWidth1430px.css);
+@import url(maxWidth970px.css);
+/* adaptiv pages */
+
+@import url(PagesWidth1430px.css);
+@import url(PagesWidth970px.css);

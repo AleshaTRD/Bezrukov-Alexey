@@ -1,0 +1,314 @@
+.card_bodey {
+  background-color: #ffffff;
+}
+
+.ui-widget.ui-widget-content {
+  border: none;
+}
+#tabs .ui-widget-content {
+  border: none;
+  background: none;
+}
+.img-right_side_hiden {
+  display: none;
+}
+#tabs .ui-widget-header {
+  border: none;
+  background: none;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  padding: 0px;
+}
+#tabs .ui-state-default,
+#tabs .ui-widget-content .ui-state-default,
+#tabs .ui-widget-header .ui-state-default,
+#tabs .ui-button,
+html #tabs .ui-button.ui-state-disabled:hover,
+html #tabs .ui-button.ui-state-disabled:active {
+  border: none;
+  background: #ffffff;
+}
+
+#tabs .ui-state-active,
+#tabs .ui-widget-content .ui-state-active,
+#tabs .ui-widget-header .ui-state-active,
+#tabs a.ui-button:active,
+#tabs .ui-button:active,
+#tabs .ui-button.ui-state-active:hover {
+  border: 1px solid #f53b49;
+  background: none;
+}
+#tabs .ui-tabs .ui-tabs-nav li {
+  border-bottom-width: 1px;
+}
+#tabs .ui-tabs .ui-tabs-nav li {
+  margin: 0px;
+  margin-right: 5px;
+}
+
+.nautilus_logo {
+  margin-top: -20px;
+}
+#tabs .ui-tabs-panel {
+  padding: 0px;
+}
+.product_img-desc {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.haract-price {
+  display: flex;
+  width: 750px;
+  justify-content: space-between;
+  border-top: 1px solid rgba(133, 143, 164, 0.2);
+  padding-top: 30px;
+}
+.haract-price div {
+  width: 360px;
+  height: 320px;
+}
+.haract-price div:nth-child(2) {
+  background-color: #f7f7f7;
+  border-radius: 6px;
+}
+
+.delivery {
+  display: flex;
+  width: 750px;
+  height: 300px;
+  background-color: #f7f7f7;
+  margin-top: 30px;
+  border-radius: 6px;
+}
+.haract-price p {
+  color: #909cb5;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 150%;
+}
+
+.haract-price .like span {
+  color: #909cb5;
+}
+
+.delivery img:nth-child(1) {
+  width: 332px;
+  height: 214px;
+}
+
+.delivery img:nth-child(2) {
+  width: 326px;
+  height: 295px;
+  margin-left: 30px;
+}
+
+.haract-price a {
+  font-size: 16px;
+  color: #4b7ee8;
+  margin-right: 30px;
+  /* vertical-align: middle; */
+  line-height: 150%;
+}
+.likeBr {
+  display: none;
+}
+.haract-price span {
+  font-size: 16px;
+  color: rgba(56, 66, 85, 1);
+}
+.like img {
+  margin-right: 6px;
+}
+.haract-price button img {
+  margin-right: 10px;
+}
+.haract-price button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px 10px;
+  border: 0px;
+  background: #f53b49;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.product_price1 h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #1a1a25;
+  margin-left: 20px;
+  margin-top: 12px;
+}
+.product_price1 h4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 10px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  background: #909cb5;
+  border-radius: 4px;
+  margin: 16px 90px 16px 20px;
+}
+.product_price1 h4 span {
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+}
+.haract-price .pr_bonus {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+  color: #f53b49;
+  margin-left: 20px;
+}
+.vnalichii {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.youtube_contein {
+  background-color: #1a1a25;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  /* overflow: hidden; */
+}
+
+.characteristics {
+  background-color: #f7f7f7;
+
+  margin-top: 60px;
+}
+.char_descr {
+  padding-top: 60px;
+  margin-top: 60px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 60px;
+}
+.char_descr li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+.span2 {
+  margin-left: 10px;
+  font-family: "Inter", sans-serif;
+  color: #1a1a25;
+  font-size: 16px;
+}
+.span1 {
+  display: inline-block;
+  width: 360px;
+  font-family: "Inter", sans-serif;
+  color: #1a1a25;
+  opacity: 0.7;
+  font-size: 16px;
+}
+.stroka1 {
+  border-bottom: 1px solid rgba(133, 143, 164, 0.2);
+  padding: 8px 0px 8px 0px;
+}
+.accordion-container {
+  display: flex;
+  margin-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: -120px;
+}
+.accordion-h1 {
+  width: 400px;
+}
+#accordion {
+  width: 1010px;
+}
+.accordion-h1 p {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.1;
+  color: #f53b49;
+  margin-bottom: 10px;
+}
+.accordion-h1 a {
+  color: #384255;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.1;
+}
+.accordion-h1 a img {
+  width: 10px;
+}
+.ui-accordion .ui-accordion-header {
+  padding: 20px 20px 20px 0;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #384255;
+  background: inherit;
+  font-family: "Inter", sans-serif;
+  border-bottom: 1px solid rgba(133, 143, 164, 0.5);
+  text-align: left;
+  transition: 0.4s linear;
+}
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {
+  border: none;
+}
+.ui-widget-content {
+  border: none;
+  background: inherit;
+  color: inherit;
+}
+.ui-accordion .ui-accordion-content {
+  padding: 0px;
+}
+/* .ui-state-active .ui-icon,
+.ui-button:active .ui-icon { */
+/* background-image: url(../img/Card-Page/strela1.png); */
+/* position: relative;
+  width: 50px; */
+/* } */
+/* .ui-state-active .ui-icon::after,
+.ui-button:active .ui-icon::after { */
+/* background-image: url(../img/Card-Page/strela1.png); */
+/* position: absolute;
+  content: "";
+  background: url(../img/Card-Page/strela1.png) no-repeat;
+  height: 500px;
+  width: 500px;
+  background-size: 13px 15px;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+}
+.ui-icon,
+.ui-widget-content .ui-icon {
+  background-image: url(../img/Card-Page/strela1.png);
+}
+.ui-icon,
+.ui-widget-content .ui-icon:after {
+  position: absolute;
+  content: "";
+  background: url(../img/Card-Page/strela1.png) no-repeat;
+  height: 20px;
+  width: 20px;
+  background-size: 13px 15px;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+} */

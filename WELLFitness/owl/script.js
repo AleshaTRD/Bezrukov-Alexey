@@ -1,10 +1,13 @@
 $(document).ready(function () {
   $(".car1").owlCarousel({
-    items: 4,
+    items: 8,
     loop: true,
     margin: 30,
     nav: true,
-    stagePadding: 100,
+    navText: [
+      "<img src='img/banner/arrow.svg'>",
+      "<img src='img/banner/arrow2.svg'>",
+    ],
   });
 });
 

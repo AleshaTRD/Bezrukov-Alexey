@@ -1,23 +1,7 @@
 body {
   color: #384255;
 }
-.about_us h1 {
-  font-weight: 800;
-  font-size: 38px;
-  line-height: 1.1;
-  color: #f53b49;
-  padding-top: 50px;
-  padding-bottom: 23px;
-}
 
-.about_us hr {
-  height: 1px;
-  border: none;
-  color: rgba(133, 143, 164, 0.2);
-  background-color: rgba(133, 143, 164, 0.2);
-  height: 1px;
-  margin-bottom: 30px;
-}
 .au_banner {
   height: 624px;
   display: flex;
@@ -165,7 +149,6 @@ h3 {
 .au_the-reason {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 90px;
 }
 .au_the-reason div {
   width: 495px;
@@ -182,4 +165,7 @@ h3 {
 .au_the-reason div p {
   font-size: 18px;
   line-height: 1.5;
+}
+.au_menu2 {
+  display: none;
 }
