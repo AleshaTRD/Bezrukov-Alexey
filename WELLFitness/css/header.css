@@ -35,8 +35,17 @@ header a {
   margin-left: 10px;
   color: #fff;
 }
+
 #menu li a {
   color: #fff;
+}
+#menu li a:hover {
+  margin-left: 0.3em;
+  text-shadow: 1px 1px 7px #f53b49;
+  /* color: #f53b49; */
+}
+.header_nav li a:hover {
+  color: #f53b49;
 }
 
 .burger {
