@@ -6,6 +6,9 @@
     width: 960px;
     margin: 0 auto;
   }
+  #menu {
+    display: none;
+  }
   .main_logo {
     width: 200px;
     margin-right: 40px;

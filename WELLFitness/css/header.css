@@ -8,6 +8,40 @@ header a {
 
   border-bottom: 1px solid #2a2c38;
 }
+#menu {
+  display: none;
+}
+#open {
+  user-select: none;
+}
+#close {
+  user-select: none;
+  display: none;
+}
+#menu {
+  background-color: #2a2c38;
+  width: 240px;
+  height: 262px;
+  color: #fff;
+  position: absolute;
+  top: 65px;
+  z-index: 101;
+  transition: 0.5s;
+  transform: translateY(-325px);
+  border-radius: 6px;
+}
+#menu li {
+  margin-top: 5px;
+  margin-left: 10px;
+  color: #fff;
+}
+#menu li a {
+  color: #fff;
+}
+
+.burger {
+  position: relative;
+}
 .header2 {
   background-color: #1a1a25;
 }
@@ -111,6 +145,19 @@ div.MenuLevel1 > div:hover div.MenuLevel2 {
 .header_call {
   color: #f53b49;
   margin-left: 30px;
+}
+#menu .header_phone1 {
+  font-weight: 500;
+  color: #ffffff;
+}
+#menu .header_phone1 span {
+  margin-left: 4px;
+  font-weight: 400;
+  color: #909cb5;
+}
+#menu .header_call1 {
+  color: #f53b49;
+  /* margin-left: 30px; */
 }
 .voyti_img {
   margin-left: 14px;
