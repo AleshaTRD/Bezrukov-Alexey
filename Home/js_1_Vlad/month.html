@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>month</title>
+  </head>
+  <!-- 2. С помощью prompt() спросить у пользователя номер месяца, затем необходимо
+  преобразовать к числу и сохранить в переменную month. Определите в какую пору
+  года попадает этот месяц (зима, лето, весна, осень). Решите задачу через
+  if/else, а затем придумайте еще один способ решения. -->
+  <body>
+    <script>
+      let month = parseInt(prompt("введите номер месяца"));
+      while (isNaN(month) || month === "" || month < 1 || month > 12) {
+        console.log(month);
+        month = prompt("введите правильный номер месяца от 1 до 12");
+      }
+
+      // function fMonth(month) {
+      //   if (month <= 2) {
+      //     alert("зима!");
+      //   } else if (month > 2 && month < 6) {
+      //     alert("весна!");
+      //   } else if (month > 5 && month < 9) {
+      //     alert("лето!");
+      //   } else if (month > 8 && month < 12) {
+      //     alert("осень!");
+      //   } else if (month == 12) {
+      //     alert("зима!");
+      //   }
+      // }
+      // fMonth(month);
+
+      switch (month) {
+        case 1:
+          alert("зима, январь");
+          break;
+        case 2:
+          alert("зима, февраль");
+          break;
+      }
+    </script>
+    конец
+  </body>
+</html>

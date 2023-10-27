@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>KVADRAT</title>
+  </head>
+  <!-- 1. С помощью prompt() спросить у пользователя длину и ширину прямоугольника,
+  сохранить эти значения в переменные width и length. После этого высчитайте
+  площадь прямоугольника, его периметр и выведите результаты в консоль. Если
+  длина и ширина равны, то дополнительно сообщите в консоли, что перед нами
+  квадрат. -->
+  <body>
+    <script>
+      do {
+        var widthS = prompt("Введите ширину прямоугольника");
+        var width = parseInt(widthS);
+        console.log(width);
+      } while (isNaN(width));
+
+      do {
+        var lengthS = prompt("Введите высоту прямоугольника");
+        var length = parseInt(lengthS);
+        console.log(length);
+      } while (isNaN(length));
+
+      const ploshad = width * length;
+      const perimetr = width * 2 + length * 2;
+      const result = `
+            Площадь прямоугольника =  ${ploshad}
+            Периметр прямоугольника =  ${perimetr}
+                   `;
+      console.log(width);
+      console.log(length);
+      if (width === length) {
+        alert(result + "Перед нами квадрат");
+      } else {
+        alert(result);
+      }
+    </script>
+    конец
+  </body>
+</html>

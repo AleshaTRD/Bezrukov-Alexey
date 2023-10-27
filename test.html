@@ -66,3 +66,34 @@
     </div>
   </body>
 </html>
+<script>
+  var x = null;
+  var y = null;
+  var sign;
+  function getNum(a) {
+    if (x === null) {
+      x = a;
+    } else {
+      y = a;
+    }
+  }
+  function getSign(a) {
+    sign = a;
+  }
+  function getResult() {
+    switch (sign) {
+      case "+":
+        console.log(x + y);
+        break;
+      case "*":
+        console.log(x * y);
+        break;
+      case "/":
+        console.log(x / y);
+        break;
+      case "-":
+        console.log(x - y);
+        break;
+    }
+  }
+</script>

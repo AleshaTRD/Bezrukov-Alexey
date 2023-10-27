@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>month</title>
+  </head>
+  <!-- 2. С помощью prompt() спросить у пользователя номер месяца, затем необходимо
+  преобразовать к числу и сохранить в переменную month. Определите в какую пору
+  года попадает этот месяц (зима, лето, весна, осень). Решите задачу через
+  if/else, а затем придумайте еще один способ решения. -->
+  <body>
+    <script>
+      do {
+        var monthString = prompt("введите число");
+        var month = parseInt(monthString);
+        console.log(month);
+      } while (isFinite(month));
+      if (month <= 2) {
+        alert("зима!");
+      } else if (month > 2 && month < 6) {
+        alert("весна!");
+      } else if (month > 5 && month < 9) {
+        alert("лето!");
+      } else if (month > 8 && month < 12) {
+        alert("осень!");
+      } else if (month === 12) {
+        alert("зима!");
+      } else if (month > 12) {
+        {
+          var monthString = prompt("введите число");
+          var month = parseInt(monthString);
+          console.log(month);
+        }
+        while (isFinite(month));
+      }
+
+      // var firstname = prompt("Введите вашу фамилию");
+      // var name = prompt("Введите ваше имя");
+      // var surname = prompt("Ведите ваше отчество");
+      // do {
+      //   var ageS = prompt("Введите ваш возраст:");
+      //   var age = parseInt(ageS);
+      // } while (isNaN(age));
+      // var male = confirm("ваш пол мужской?");
+
+      // var ageDay = age * 365;
+      // var age5year = age + 5;
+
+      // male === true ? (pol = "Мужской") : (pol = "Женский");
+
+      // male === true
+      //   ? age > 63
+      //     ? (pens = "да")
+      //     : (pens = "нет")
+      //   : age > 58
+      //   ? (pens = "да")
+      //   : (pens = "нет");
+
+      // var result = `
+      //         ваше ФИО: ${firstname + " " + name + " " + surname}
+      //         ваш возраст в годах: ${age}
+      //         ваш возраст в днях: ${ageDay}
+      //         через 5 лет вам будет: ${age5year}
+      //         ваш пол: ${pol}
+      //         вы на пенсии: ${pens}
+      //     `;
+      // alert(result);
+    </script>
+    конец
+  </body>
+</html>
