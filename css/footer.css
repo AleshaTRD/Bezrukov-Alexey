@@ -1,0 +1,122 @@
+footer {
+  margin-top: 120px;
+  background: #1a1a25;
+  box-shadow: 0px 10px 50px rgba(133, 143, 164, 0.05);
+}
+.footer_up {
+  display: flex;
+  padding-top: 88px;
+  border-bottom: 1px solid rgba(133, 143, 164, 0.15);
+}
+.footer_up_right2 {
+  display: none;
+}
+
+.footer_up ul:not(:last-child) {
+  margin-right: 80px;
+}
+.footer_up li {
+  padding-bottom: 12px;
+}
+.footer_up a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: #858fa4;
+}
+.footer_up h5 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+.footer_up_right {
+  margin-left: 160px;
+}
+.footer_up_right .footer_up_btn {
+  display: flex;
+  color: #858fa4;
+  padding: 14px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  background: rgba(133, 143, 164, 0.15);
+  border-radius: 5px;
+  margin-bottom: 42px;
+}
+.footer_up_btn img {
+  margin-left: 30px;
+}
+.footer_up_right li {
+  padding: 0px 0px 8px 0px;
+}
+.footer_up span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.footer_mail {
+  margin-top: 23px;
+}
+.politic_up {
+  margin-top: 40px;
+}
+.politic_up a {
+  color: #4b7ee8;
+  font-weight: 400;
+  font-size: 14px;
+}
+.politic_down {
+  padding-top: 7px;
+  margin-bottom: 28px;
+}
+.politic_down a {
+  color: #4b7ee8;
+  font-weight: 400;
+  font-size: 14px;
+}
+.footer_down {
+  display: flex;
+  margin-top: 51px;
+}
+.footer_down p {
+  font-size: 14px;
+  line-height: 140%;
+  color: #858fa4;
+  margin-top: 17px;
+  margin-bottom: 51px;
+}
+
+.foot_btn2 {
+  color: #858fa4;
+  border: 1px solid #384255;
+  border-radius: 6px;
+  padding: 9px;
+  margin-left: 26px;
+  font-size: 14px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  margin-top: -75px;
+  margin-left: 206px;
+  margin-right: 118px;
+}
+.social a {
+  margin-left: 11px;
+}
+.footer_down_btns {
+  margin-top: 10px;
+}
+.pay_system img {
+  margin-left: 77px;
+}
+.logo2_div {
+  display: none;
+}

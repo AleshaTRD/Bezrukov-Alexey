@@ -1,0 +1,43 @@
+#open {
+  user-select: none;
+}
+#close {
+  user-select: none;
+  display: none;
+}
+#menu {
+  background-color: #2a2c38;
+  width: 240px;
+  height: 210px;
+  color: #fff;
+  position: absolute;
+  top: 65px;
+  z-index: 101;sds
+  transition: 0.5s;
+  transform: translateY(-275px);
+  border-radius: 6px;
+}
+#menu li {
+  margin-top: 5px;
+  margin-left: 10px;
+  color: #fff;
+}
+#menu li a {
+  color: #fff;
+}
+
+.burger {
+  position: relative;
+}
+.block {
+  height: 100vh;
+}
+#one {
+  background-color: red;
+}
+#two {
+  background-color: green;
+}
+#three {
+  background-color: blue;
+}

@@ -1,0 +1,51 @@
+/* .section_banner {
+  display: flex;
+  justify-content: center;
+  width: 1813px;
+  height: 500px;
+  margin: 39px auto 0px auto;
+  border-radius: 10px;
+  overflow: hidden;
+} */
+/* .section_banner a {
+  border-radius: 10px;
+} */
+.section_banner {
+  width: 90vw;
+  height: 25vw;
+  margin: 39px auto 0px auto;
+}
+#car2 .owl-item {
+  height: 25vw;
+  /* width: 90vw; */
+}
+#car2 .banner {
+  height: 25vw;
+  border-radius: 10px;
+}
+#car2 .banner1 {
+  background: url(../img/banner/banner1.png) no-repeat;
+  background-size: 90vw 25vw;
+}
+#car2 .banner2 {
+  background: url(../img/banner/banner2.webp) no-repeat;
+  background-size: 90vw 25vw;
+}
+#car2 .banner3 {
+  background: url(../img/banner/banner3.png) no-repeat;
+  background-size: 90vw 25vw;
+}
+#car2 .banner4 {
+  background: url(../img/banner/banner4.png) no-repeat;
+  background-size: 90vw 25vw;
+}
+#car2 .owl-prev {
+  position: absolute;
+  top: 70%;
+  left: 45%;
+}
+#car2 .owl-next {
+  position: absolute;
+  top: 70%;
+  left: 55%;
+}

@@ -1,0 +1,130 @@
+.about_up {
+  display: flex;
+  margin-top: 80px;
+}
+.about_up_items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 352px;
+  height: 305px;
+  background: #ffffff;
+  border: 1px solid rgba(133, 143, 164, 0.2);
+  margin-top: 25px;
+}
+.about_up_items_red {
+  display: flex;
+  flex-direction: column;
+  width: 354px;
+  height: 330px;
+  background: #f53b49;
+  border: 1px solid rgba(133, 143, 164, 0.2);
+  border-radius: 6px 6px 0px 0px;
+}
+.about_up_items:nth-child(1) img {
+  margin-top: 36px;
+  margin-bottom: 26px;
+  width: 60px;
+}
+.about_up_items:nth-child(2) img {
+  margin-top: 36px;
+  margin-bottom: 27px;
+  width: 59px;
+}
+.about_up_items_red img {
+  margin-top: 33px;
+  margin-left: 44px;
+  margin-bottom: 27px;
+  width: 63px;
+}
+.about_up_items:nth-child(4) img {
+  margin-top: 39px;
+  margin-bottom: 28px;
+  width: 63px;
+}
+
+.about_up h5 {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 120%;
+  color: #1a1a25;
+  margin-bottom: 10px;
+}
+.about_up p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 150%;
+  color: #384255;
+  margin-bottom: 20px;
+}
+.about_up a {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #f53b49;
+}
+.about_company .about_up .about_a_svg {
+  width: 10px;
+  margin: 0px 0px 0px 2px;
+  vertical-align: middle;
+}
+.about_up_items_red h5 {
+  color: #ffffff;
+  margin-bottom: 10px;
+  margin-left: 38px;
+}
+.about_up_items_red p {
+  text-align: start;
+  color: #ffffff;
+  margin-bottom: 20px;
+  margin-left: 38px;
+}
+.about_up_items_red a {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  margin-left: 38px;
+}
+.about_up_items_reda {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #f53b49;
+}
+.about_company .about_up .about_a_telephone {
+  width: 136px;
+  margin-left: 217px;
+  margin-top: -180px;
+}
+.about_down {
+  width: 562px;
+  position: relative;
+}
+
+.about_down h3 {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 140%;
+  color: #384255;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.about_down p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #384255;
+  margin-bottom: 52px;
+}
+.about_down:after {
+  content: "";
+  position: absolute;
+  background: url("../img/about/map.png") no-repeat;
+
+  width: 1099px;
+  height: 675px;
+  top: -175px;
+  left: 460px;
+  z-index: -1;
+}

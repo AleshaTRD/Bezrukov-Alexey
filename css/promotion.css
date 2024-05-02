@@ -1,0 +1,182 @@
+.car1 {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  width: 2500px;
+  height: 550px;
+  z-index: 99;
+}
+.carousel-cont {
+  position: relative;
+  width: 100%;
+  height: 620px;
+}
+.carousel-cont::after {
+  position: absolute;
+  content: "";
+  top: 0px;
+  left: 1260px;
+  width: 400px;
+  height: 540px;
+  background: linear-gradient(
+    90deg,
+    rgba(247, 247, 247, 0.2),
+    rgba(247, 247, 247, 0.9) 100%
+  );
+
+  z-index: 100;
+}
+
+.owl-item {
+  margin-top: 10px;
+  margin-bottom: 11px;
+  width: 300px;
+  height: 505px;
+  background-color: #fff;
+  border-radius: 6px;
+  transition: 0.3s ease-in;
+}
+/* .owl-carousel .promo {
+  background: #ffffff !important;
+} */
+.owl-item:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), 0 4px 10px rgba(19, 15, 38, 0.1);
+  transition: 0.3s ease-in;
+}
+.owl-carousel .owl-item .promo_img {
+  width: 220px;
+  margin: 10px auto 40px;
+  position: relative;
+}
+.owl-carousel .owl-item .promo_img:after {
+  content: url(../img/Promo/ico_like.png);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.car1 .owl-prev {
+  position: absolute;
+  top: 92%;
+  left: 30vw;
+}
+.car1 .owl-next {
+  position: absolute;
+  top: 92%;
+  left: 50vw;
+}
+.promotion hr {
+  height: 1px;
+  border: none;
+  color: rgba(133, 143, 164, 0.2);
+  background-color: rgba(133, 143, 164, 0.2);
+  height: 1px;
+  margin-bottom: 30px;
+}
+.promo_icons {
+  display: flex;
+  justify-content: space-between;
+}
+.car1 .promo .promo_icons img:nth-child(1) {
+  width: 36px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.car1 .promo .promo_icons img:nth-child(2) {
+  width: 46px;
+  height: 17px;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+.promotion .car1 {
+}
+.promo_discription {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+.promo_nalichie {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #2fc509;
+  margin-left: 20px;
+}
+.car1 .promo .promo_krygi {
+  width: 30px;
+  /* height: 15px; */
+
+  margin-left: 6px;
+}
+.promo_show {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #4b7ee8;
+  margin-left: 8px;
+}
+.promo_name {
+  font-size: 16px;
+  line-height: 150%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 20px;
+}
+.promo_prise {
+  display: flex;
+}
+.promo_prise button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px 10px;
+  border: 0px;
+  background: #f53b49;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.promo_reyting {
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #909cb5;
+  margin-top: 8px;
+}
+.car1 .promo .promo_stars {
+  width: 66px;
+  display: inline;
+  vertical-align: middle;
+
+  margin-left: 6px;
+}
+.promo_prise {
+  margin-top: 20px;
+}
+.promo_prise button img {
+  margin-right: 10px;
+}
+.promo_prise div p:nth-child(1) {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 135.94%;
+  color: #1a1a25;
+}
+
+.promo_prise div {
+  margin-left: 20px;
+  margin-right: 40px;
+}
+.promo_prise div p:nth-child(2) {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration-line: line-through;
+  color: #858fa4;
+}
